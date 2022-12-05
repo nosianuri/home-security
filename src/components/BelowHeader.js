@@ -3,7 +3,7 @@ import cybermonday from "../assets/cyber.webp";
 
 const BelowHeader = () => {
   return (
-    <div className='bg-[#f59e0b] py-5 ' >
+    <div className='bg-[#e2b95d] py-5 ' >
        <div className='flex align-middle justify-evenly'>
        <div className=''>
         <img className='skew-y-6' width={190} src={cybermonday} alt="" />
