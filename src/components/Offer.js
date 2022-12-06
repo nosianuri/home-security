@@ -29,7 +29,7 @@ const Offer = () => {
           <div className='offer-btn-box'>
             <button className='btn bg-white text-secondary mr-2'><i className="fa-solid fa-truck-monster pr-2"></i>Professional Installation</button>
             <button className='btn bg-white text-secondary mr-2'><i className="fa-solid fa-shield-halved pr-2"></i>24x7 Monitoring</button>
-            <button className='btn bg-white text-secondary mr-2'><i classNAme="fa-solid fa-mobile-screen-button pr-2"></i>Mobile App</button>
+            <button className='btn bg-white text-secondary mr-2'><i class="fa-solid fa-mobile-screen pr-2"></i>Mobile App</button>
             <button className='btn bg-white text-secondary'><i className="fa-solid fa-fire pr-2"></i>Fire Monitoring</button>
           </div>
           <div>
