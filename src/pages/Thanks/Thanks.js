@@ -25,7 +25,7 @@ const Thanks = () => {
     </div>
   </div>
   <div className='text-center mt-5 mb-5'>
-  <button class="btn btn-wide text-white bg-secondary text-xl "><i class="fa-solid fa-phone pr-2"></i>+1000000000</button>
+  <button class="btn btn-wide text-white bg-secondary text-xl "><a href='tel+18554301263'><i class="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
   </div>
 </div>
     </div>

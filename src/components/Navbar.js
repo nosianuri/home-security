@@ -17,7 +17,7 @@ const Navbar = () => {
         <li><a href='/#getquote'>Get Quote</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl lg:pl-10">
+    <a href='/' class="btn btn-ghost normal-case text-xl lg:pl-10">
         <img width={90} src={logo} alt="" />
     </a>
   </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
   </div>
   <div class="navbar-end">
   
-  <a class="text-white pr-10"><i class="fa-solid fa-phone pr-2"></i>+10000000</a>
+  <a href='tel+18554301263' class="text-white pr-10"><i class="fa-solid fa-phone pr-2"></i>(855) 430-1263</a>
   
     
   </div>
