@@ -2,15 +2,15 @@ import React from 'react'
 import Product from './Product';
 import product1 from "../assets/door-lock-key-pad-small.png";
 import product2 from "../assets/indoor-camera-small.png";
-import product3 from "../assets/garage-door-controler-small.png";
+import product3 from "../assets/smart-drive-v2-small.png";
 import product4 from "../assets/motion-sensor-small.png";
 import product5 from "../assets/outdoor-camera-pro.png";
-import product6 from "../assets/smart-drive-v2-small.png";
+import product6 from "../assets/Smarter-Home-CO-alarm-166x150.webp";
 import product7 from "../assets/thermostat-small.png";
 import product8 from "../assets/motion-sensorjpg.jpg";
 import product9 from "../assets/smart garage-door-opener.jpg";
-import product10 from "../assets/Smarter-Home-Water-Valve-Shut-off.webp";
-import product11 from "../assets/Smarter-Home-CO-alarm-166x150.webp";
+import product10 from "../assets/doorbellcamera-new (1).svg";
+import product11 from "../assets/garage-door-controler-small.png";
 
 const Products = () => {
   
@@ -18,7 +18,7 @@ const Products = () => {
 const products = [
     {
         _id: 1,
-        name: 'Pay Per Call',
+        name: 'Door Locks/Deadbolts',
         star: 3.5,
         detail: 'Privacy mode',
         description: 'One touch calling',
@@ -26,7 +26,7 @@ const products = [
     },
     {
         _id: 2,
-        name: 'Lead Generation',
+        name: 'Indoor Camera',
         star: 4,
         detail: 'Lurker detection',
         description: '3x optical zoom',
@@ -34,7 +34,7 @@ const products = [
     },
     {
         _id: 3,
-        name: 'Affiliate Network',
+        name: 'Vivint Smart Drive',
         star: 3.6,
         detail: 'Package detection',
         description: 'Square aspect ratio',
@@ -42,7 +42,7 @@ const products = [
     },
     {
         _id: 4,
-        name: 'Brand Safety',
+        name: 'Smart Sensors',
         star: 3.5,
         detail: 'Privacy mode',
         description: 'One touch calling',
@@ -50,7 +50,7 @@ const products = [
     },
     {
         _id: 5,
-        name: 'Brand Safety',
+        name: 'Out Door Camera Pro',
         star: 3.6,
         detail: 'Privacy mode',
         description: 'One touch calling',
@@ -58,7 +58,7 @@ const products = [
     },
     {
         _id: 6,
-        name: 'Brand Safety',
+        name: 'Smarter-Home-CO-alarm',
         star: 4,
         detail: 'Privacy mode',
         description: 'One touch calling',
@@ -66,7 +66,7 @@ const products = [
     },
     {
         _id: 7,
-        name: 'Brand Safety',
+        name: 'Thermostat',
         star: 3.2,
         detail: 'Privacy mode',
         description: 'One touch calling',
@@ -74,32 +74,32 @@ const products = [
     },
     {
         _id: 8,
-        name: 'Brand Safety',
-        star: 3.2,
+        name: 'Smart Lighitng',
+        star: 3.7,
         detail: 'Privacy mode',
         description: 'One touch calling',
         img: product8
     },
     {
         _id: 9,
-        name: 'Brand Safety',
-        star: 3.2,
+        name: 'smart garage-door-opener',
+        star: 4,
         detail: 'Privacy mode',
         description: 'One touch calling',
         img: product9
     },
     {
         _id: 10,
-        name: 'Brand Safety',
-        star: 3.2,
+        name: 'Door Bell Camera',
+        star: 3.4,
         detail: 'Privacy mode',
         description: 'One touch calling',
         img: product10
     },
     {
         _id: 11,
-        name: 'Brand Safety',
-        star: 3.2,
+        name: 'Garage Door Controller',
+        star: 3.8,
         detail: 'Privacy mode',
         description: 'One touch calling',
         img: product11

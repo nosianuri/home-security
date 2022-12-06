@@ -15,7 +15,7 @@ Do Not Sell/Share My Personal Information
 |
 Limit the Use of My Sensitive Personal Information
   </div>
-    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+    <p>Copyright © 2022 - All right reserved by Ray Advertising LLC</p>
   </div>
 </footer>
   )

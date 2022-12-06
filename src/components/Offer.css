@@ -2,3 +2,9 @@
 background: #365314;
 color: #fff;
 }
+
+.pb-offer{
+    background: white;
+    color: #365314;
+    border: 2px solid #365314;
+}

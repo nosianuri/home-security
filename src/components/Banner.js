@@ -13,8 +13,8 @@ const Banner = () => {
 
       <div className='px-10 py-14 items-center justify-center bg-opacity-25 bg-gray-700'>
       
-        <div className='text-center pb-5 text-white'>
-          <p className='lg:text-3xl md:text-2xl text-xl pb-3 font-bold'>
+        <div className='text-center pb-5 text-white bg-opacity-25'>
+          <p className='lg:text-4xl md:text-2xl text-xl pb-3 font-bold'>
             Get smart home products to protect <br /> what matters most
           </p>
           <h1 className=''>Customize your home security with 24/7 alarm monitoring</h1>

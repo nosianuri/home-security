@@ -1,5 +1,5 @@
 import React from 'react';
-import reach from "../assets/banner.avif";
+import reach from "../assets/banner-form.jpg";
 
 const SubmitForm = () => {
   return (

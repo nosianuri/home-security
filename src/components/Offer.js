@@ -18,7 +18,9 @@ const Offer = () => {
           <div className='offer-btn-box'>
             <button className='btn bg-secondary text-white mb-3 text-2xl mt-2'><i class="fa-solid fa-up-right-from-square"></i><span className='pl-2 '>Reaquest a quote</span></button>
             <div>
-              <button className='btn bg-secondary text-white px-10 text-2xl '><i class="fa-solid fa-phone pr-2"></i>100000000</button>
+              <button className='btn bg-secondary text-white px-10 text-2xl pb-offer'><a href='tel+18554301263'>
+              <i class="fa-solid fa-phone pr-2"></i>(855) 430-1263
+              </a></button>
             </div>
 
           </div>
