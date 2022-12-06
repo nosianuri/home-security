@@ -45,7 +45,7 @@ const SubmitForm = () => {
               className='input w-full max-w-md '
             />
 
-            <p className='text-slate-400 leading-none'>By submitting this form you agree to our Communication and Privacy Policy </p>
+            <p className='text-slate-400 leading-none mute-text'>By submitting this form you agree to our Communication and Privacy Policy </p>
             <button className='btn lg:px-32 md:px-16 sm:px-10 btn-secondary mb-5 text-lg font-bold text-white'>Submit</button>
           </div>
 

@@ -13,7 +13,7 @@ const TopHeader = () => {
                 <p className='text-sm'>*New customers only.</p>
             </div>
             <div className='btn relative call-btn bg-[#365314] lg:mr-5 text-white font-bold mt-3'>
-            <div className='h-[20px] w-[15px] absolute bg-[#365314] -top-[10px] right-[19px] rotate-45'></div>
+            <div className='h-[20px] w-[15px] absolute bg-[#365314] -top-[10px] right-[69px] rotate-45'></div>
             Call to get offer!
             </div>
         </div>

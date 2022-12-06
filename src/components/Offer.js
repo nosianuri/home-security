@@ -6,7 +6,7 @@ const Offer = () => {
   return (
     <div className='bg-base-200' id='offer'>
       <div>
-        <h2 className='bg-secondary text-2xl text-white pl-10'>Automation Security System</h2>
+        <h2 className='bg-secondary text-2xl text-white pl-10 py-3'>Automation Security System</h2>
         <div className='lg:flex p-5 justify-between'>
           <div><img width={200} src={vivintlogo} alt="" /></div>
           <div>
@@ -16,9 +16,9 @@ const Offer = () => {
             <p><span><i class="fa-solid fa-check pr-2"></i></span>Advanced Home Automation</p>
           </div>
           <div className='offer-btn-box'>
-            <button className='btn bg-secondary text-white mb-3 text-2xl mt-2'><i class="fa-solid fa-up-right-from-square"></i><span className='pl-2 '>Reaquest a quote</span></button>
+            <button className='btn bg-secondary text-white mb-3 text-2xl mt-2'><a href="/#topform"><i class="fa-solid fa-up-right-from-square"></i><span className='pl-2 '>Reaquest a quote</span></a></button>
             <div>
-              <button className='btn bg-secondary text-white px-10 text-2xl pb-offer'><a href='tel+18554301263'>
+              <button className='btn bg-secondary text-white px-10 text-2xl pb-offer'><a href='tel+8554301263'>
               <i class="fa-solid fa-phone pr-2"></i>(855) 430-1263
               </a></button>
             </div>

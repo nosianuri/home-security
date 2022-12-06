@@ -5,7 +5,7 @@ import rightform from "../assets/rightform.png";
 
 const Banner = () => {
   return (
-    <div className=''>
+    <div className='' id='topform'>
       <div style={{
                 background: `url(${homebanner})` 
             }} className='!bg-cover !bg-no-repeat'>
@@ -65,7 +65,7 @@ const Banner = () => {
                   className='input lg:w-3/2 phone-input'
                 />
               </div>
-              <p className='text-slate-400 leading-none'>By clicking “Request a Quote” you confirm you are genuinely interested in receiving more information about Vivint and constitutes your electronic signature by means of automatic technology; which may include phone calls, texts, emails, and prerecorded messages marketing Vivint. Consent is not required to make a purchase.</p>
+              <p className='text-slate-400 leading-none mute-text'>By clicking “Request a Quote” you confirm you are genuinely interested in receiving more information about Vivint and constitutes your electronic signature by means of automatic technology; which may include phone calls, texts, emails, and prerecorded messages marketing Vivint. Consent is not required to make a purchase.</p>
               <button className='btn lg:px-32 btn-secondary mb-5 text-lg font-bold text-white'>Submit</button>
             </div>
           </div>

@@ -3,7 +3,7 @@ export const workouts = {
     title: 'The proof is in the reviews',
     programs: [
       {
-        description: '“Great customer service and easy to deal with.”',
+        description: '“The experience is magical.”',
         name: 'Shahenur Haque',
       },
       {
@@ -11,19 +11,19 @@ export const workouts = {
         name: 'Musfiqur Rahman',
       },
       {
-        description: '“Great customer service and easy to deal with.”',
+        description: '“I am having a great experience with Vivint Smart Home! I Absolutely love it!”',
         name: 'Tamim Iqbal',
       },
       {
-        description: '“Great customer service and easy to deal with.”',
+        description: '“Lifesaver! I feel so much more secure & they have amazing customer service!”',
         name: 'Nayeem Ahmed',
       },
       {
-        description: '“Great customer service and easy to deal with.”',
+        description: '“The most comprehensive smart home security system.”',
         name: 'Shamim Hossain',
       },
       {
-        description: '“Great customer service and easy to deal with.”',
+        description: '“Do not DIY your smart home security system - the pros at Vivint are totally worth the cost.”',
         name: 'Toufiq Kaji',
       },
       {

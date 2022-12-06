@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Thanks.css';
 
 const Thanks = () => {
   return (
@@ -6,11 +7,12 @@ const Thanks = () => {
     <div className='min-h-screen bg-[#a0b7c1] flex justify-center'>
 <div className=' '>
   <div className='text-center mt-16 mb-5'>
-  <p className='text-white lg:text-xl sm:text-lg'>Hi, Karles Anka! Your quote is on its way!</p>
+  <p className='text-white lg:text-3xl md:text-xl text-lg'>Hi, Karles Anka! Your quote is on its way!</p>
   <p className='text-white'>Here's what to expect</p>
   </div>
   
-  <div className='bg-[#7e4129] lg:px-32 py-10'>
+  <div className='bg-[#7e4129] relative lg:px-32 py-10'>
+  
     <div>
       <h1 className='text-white text-lg font-bold'>1. A Call</h1>
       <p className='text-white'>A Vivint expert will reach out with your personalized home security qoute</p>
@@ -23,9 +25,10 @@ const Thanks = () => {
       <h1 className='text-white text-lg font-bold'>3. Ypur Qoute</h1>
       <p className='text-white'>Compare pricing and features to find the one that fits your budget</p>
     </div>
+    <div className='h-[20px] w-[20px] absolute bg-[#7e4129] -bottom-[10px] right-[369px] rotate-45'></div>
   </div>
   <div className='text-center mt-5 mb-5'>
-  <button class="btn btn-wide text-white bg-secondary text-xl "><a href='tel+18554301263'><i class="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
+  <button class="btn btn-wide text-white bg-secondary text-xl thanks-btn"><a href='tel+8554301263'><i class="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
   </div>
 </div>
     </div>
