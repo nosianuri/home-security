@@ -12,15 +12,14 @@ import BelowHeader from '../../components/BelowHeader'
 const Home = () => {
   return (
     <div>
-        <Navbar />
-        <TopHeader />
+       
         <BelowHeader />
         <Banner />
         <Products />
         <Offer />
         {/* <Review /> */}
         <SubmitForm />
-        <Footer />
+        
     </div>
   )
 }
