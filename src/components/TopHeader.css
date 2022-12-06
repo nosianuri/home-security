@@ -1,0 +1,19 @@
+.call-btn:hover{
+  background: #365314;
+  
+}
+@media screen and (max-width: 780px) {
+    .topheader{
+        text-align: center;
+        
+    }
+    .call-btn{
+        margin-bottom: 10px;
+    }
+    .top-header-img{
+        padding-top: 70px;
+        display: inline-block;
+        align-content: center;
+        justify-content: center;
+    }
+}

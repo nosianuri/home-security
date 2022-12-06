@@ -7,6 +7,10 @@ import product4 from "../assets/motion-sensor-small.png";
 import product5 from "../assets/outdoor-camera-pro.png";
 import product6 from "../assets/smart-drive-v2-small.png";
 import product7 from "../assets/thermostat-small.png";
+import product8 from "../assets/motion-sensorjpg.jpg";
+import product9 from "../assets/smart garage-door-opener.jpg";
+import product10 from "../assets/Smarter-Home-Water-Valve-Shut-off.webp";
+import product11 from "../assets/Smarter-Home-CO-alarm-166x150.webp";
 
 const Products = () => {
   
@@ -68,9 +72,41 @@ const products = [
         description: 'One touch calling',
         img: product7
     },
+    {
+        _id: 8,
+        name: 'Brand Safety',
+        star: 3.2,
+        detail: 'Privacy mode',
+        description: 'One touch calling',
+        img: product8
+    },
+    {
+        _id: 9,
+        name: 'Brand Safety',
+        star: 3.2,
+        detail: 'Privacy mode',
+        description: 'One touch calling',
+        img: product9
+    },
+    {
+        _id: 10,
+        name: 'Brand Safety',
+        star: 3.2,
+        detail: 'Privacy mode',
+        description: 'One touch calling',
+        img: product10
+    },
+    {
+        _id: 11,
+        name: 'Brand Safety',
+        star: 3.2,
+        detail: 'Privacy mode',
+        description: 'One touch calling',
+        img: product11
+    },
 ]
   return (
-    <div className='mb-28 mt-10 px-16 ' id="services">
+    <div className='mb-28 mt-10 px-16 ' id="products">
     <div className='text-center py-5'>
     <h3 className='text-primary uppercase'>EVERYTHING WORKS TOGETHER</h3>
         <h2 className='text-4xl font-bold py-5'>Combine products

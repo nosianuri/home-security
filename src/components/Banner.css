@@ -1,11 +1,24 @@
+.homebanner{
+    background-image: url(../assets/banner.avif);
+    
+}
+
 .form_header{
     /* width: 100%; */
     height: 50px;
-    background: #4d7c0f;
+    background: #365314;
     color: #fff;
     /* font-size: 1.25rem; */
     /* line-height: 20px; */
     font-weight: 700;
     /* position: relative; */
     padding-top: 14px ;
+}
+@media screen and (max-width:780px) {
+    .phone-input{
+        margin-top: 20px;
+    }
+    .right-form{
+        margin-bottom: 45px;
+    }
 }

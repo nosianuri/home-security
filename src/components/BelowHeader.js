@@ -1,12 +1,13 @@
 import React from 'react';
-import cybermonday from "../assets/cyber.webp";
+import cybermonday from "../assets/cyber-monday.jpg";
+import './BelowHeader.css';
 
 const BelowHeader = () => {
   return (
     <div className='bg-[#e2b95d] py-5 ' >
-       <div className='flex align-middle justify-evenly'>
+       <div className='lg:flex align-middle justify-evenly belowheader'>
        <div className=''>
-        <img className='skew-y-6' width={190} src={cybermonday} alt="" />
+        <img className='skew-y-6 below-img' width={160} src={cybermonday} alt="" />
        </div>
        <div className='text-white'>
         <p className='text-xl text-primary font-bold'>ViVint Smart Home Security</p>

@@ -3,7 +3,7 @@ import React from 'react'
 const Thanks = () => {
   return (
 
-    <div className='min-h-screen bg-neutral flex justify-center'>
+    <div className='min-h-screen bg-[#a0b7c1] flex justify-center'>
 <div className=' '>
   <div className='text-center mt-16 mb-5'>
   <p className='text-white lg:text-xl sm:text-lg'>Hi, Karles Anka! Your quote is on its way!</p>
@@ -25,7 +25,7 @@ const Thanks = () => {
     </div>
   </div>
   <div className='text-center mt-5 mb-5'>
-  <button class="btn btn-wide text-white bg-secondary text-xl ">+1000000000</button>
+  <button class="btn btn-wide text-white bg-secondary text-xl "><i class="fa-solid fa-phone pr-2"></i>+1000000000</button>
   </div>
 </div>
     </div>
