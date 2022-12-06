@@ -4,7 +4,7 @@ import './TopHeader.css';
 
 const TopHeader = () => {
   return (
-    <div className='bg-secondary lg:pt-16 md:pt-16'>
+    <div className='bg-secondary lg:pt-20 md:pt-16'>
         <div className='lg:flex topheader'>
             <div className='top-header-img'><img width={150} src={logo} alt="" /></div>
             <div className=' mx-auto justify-center text-white'>
