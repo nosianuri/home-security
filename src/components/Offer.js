@@ -33,7 +33,7 @@ const Offer = () => {
             <button className='btn bg-white text-secondary'><i className="fa-solid fa-fire pr-2"></i>Fire Monitoring</button>
           </div>
           <div>
-            <a href="" className='font-bold'>Show more feature<i classNa="fa-solid fa-right-to-bracket pl-2 mt-3"></i></a>
+            <a href="" className='font-bold'>Show more feature<i className="fa-solid fa-right-to-bracket pl-2 mt-3"></i></a>
           </div>
         </div>
       </div>

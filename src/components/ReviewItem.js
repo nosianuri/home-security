@@ -37,7 +37,7 @@ const ReviewItem = () => {
       {programs.map((program, idx) => {
         // destructure program
         const { description, name } = program;
-        
+
         return (
           <SwiperSlide
             className='max-w-[300px] max-h-[220px] relative bg-[#d0e1e8] m-6'
@@ -47,7 +47,7 @@ const ReviewItem = () => {
             <p className='lg:text-xl'>{description}</p>
             <p className='lg:mt-5 text-sm'>{name}</p>
             </div>
-            
+
           </SwiperSlide>
         );
       })}
@@ -55,3 +55,23 @@ const ReviewItem = () => {
   );
 };
 export default ReviewItem;
+
+
+
+// import React from 'react'
+// import './Review.css';
+
+// const ReviewItem = ({ reviewitem }) => {
+//   return (
+//     <div className='slider'>
+//       <div className='slide-track'>
+//           <div className='lg:p-6 review-body slide'>
+//             <p className='lg:text-xl'>{reviewitem.description}</p>
+//             <p className='lg:mt-5 text-sm'>{reviewitem.name}</p>
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
+
+// export default ReviewItem;

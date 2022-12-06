@@ -2,5 +2,11 @@
     padding: 0;
 }
 .menu{
-    color: #1e73be;
+    color: rgba(10,51,95,0.88);
+}
+.nav-call{
+    color: rgba(10,51,95,0.88);
+}
+.btn-ghost{
+    color: rgba(10,51,95,0.88);
 }
