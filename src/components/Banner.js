@@ -11,7 +11,7 @@ const Banner = () => {
             }} className='!bg-cover !bg-no-repeat'>
             <div class="bg-opacity-25"></div>
 
-      <div className='px-10 py-14 items-center justify-center bg-opacity-25 bg-gray-700'>
+      <div className='px-10 py-14 items-center justify-center bg-opacity-25 bg-gray-900'>
       
         <div className='text-center pb-5 text-white bg-opacity-25'>
           <p className='lg:text-4xl md:text-2xl text-xl pb-3 font-bold'>
