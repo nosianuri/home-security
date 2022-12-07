@@ -1,10 +1,25 @@
-.offer-btn-box button:hover{
-background: #365314;
-color: #fff;
+.offer-btn-box button:hover {
+    background: rgba(10, 51, 95, 0.88);
+    color: #fff;
 }
 
-.pb-offer{
+.offer-btn-box .request-btn {
+    color: #fff;
+    background-color: rgba(10, 51, 95, 0.88);
+}
+
+.offer-btn-box .below-btn {
+    color: rgba(10, 51, 95, 0.88);
+    background: #fff;
+    border: 2px solid rgba(10, 51, 95, 0.88);
+}
+
+.pb-offer {
     background: white;
-    color: #365314;
-    border: 2px solid #365314;
+    color: rgba(10, 51, 95, 0.88);
+    border: 2px solid rgba(10, 51, 95, 0.88);
+}
+
+.offer-header {
+    background: rgba(10, 51, 95, 0.88);
 }

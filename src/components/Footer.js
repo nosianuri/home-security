@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center p-4 bg-black text-base-content py-16">
-  <div className='text-white'>
+    <footer className="footer footer-center p-4 bg-white text-base-content py-16">
+  <div className=''>
   <div>
   Privacy Policy
 |

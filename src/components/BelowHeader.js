@@ -4,7 +4,7 @@ import './BelowHeader.css';
 
 const BelowHeader = () => {
   return (
-    <div className='bg-[#FCE700]' >
+    <div className='bg-[#e2b95d]' >
        <div className='lg:flex align-middle justify-evenly belowheader'>
        <div className=''>
         <img className='skew-y-6 below-img' width={170} src={cybermonday} alt="" />

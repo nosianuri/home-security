@@ -20,7 +20,7 @@ const Banner = () => {
           <h1 className=''>Customize your home security with 24/7 alarm monitoring</h1>
         </div>
         <div className='lg:flex justify-center mt-10'>
-          <div className='lg:mt-16 bg-[#7743DB] h-1/2 p-5 right-form' >
+          <div className='lg:mt-16 bg-[#986b72] h-1/2 p-5 right-form' >
             <p className='text-white text-xl'>Vivint Smart Home Offers:</p>
             <p className='text-white'><i className="fa-solid fa-check pr-2"></i>Vivint remote mobile access</p>
             <p className='text-white'><i className="fa-solid fa-check pr-2"></i>Get video push notification</p>
@@ -110,7 +110,7 @@ const Banner = () => {
               <button className='btn lg:px-32 btn-secondary mb-5 text-lg font-bold text-white'>Submit</button> */}
             </div>
           </div>
-          <div className='mt-16 bg-[#7743DB] h-1/2 p-9'>
+          <div className='mt-16 bg-[#986b72] h-1/2 p-9'>
             <img width={100} src={rightform} alt="" />
             <p className='text-white font-bold'>Call to Get a Free 1-on-1</p>
             <p className='text-white font-bold'>Smart Home Security <br /> Consultation</p>

@@ -10,6 +10,7 @@
   
   .workoutSlider .swiper-button-prev,
   .workoutSlider .swiper-button-next {
+    display: none;
     top: 96%;
     background-repeat: no-repeat;
     background-size: cover;

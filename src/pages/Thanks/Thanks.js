@@ -28,7 +28,7 @@ const Thanks = () => {
     <div className='h-[20px] w-[20px] absolute bg-[#7e4129] -bottom-[10px] right-[369px] rotate-45'></div>
   </div>
   <div className='text-center mt-5 mb-5'>
-  <button className="btn btn-wide text-white bg-secondary text-xl thanks-btn"><a href='tel+8554301263'><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
+  <button className="btn btn-wide text-white bg-secondary text-xl thanks-btn"><a href='tel:+18554301263'><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
   </div>
 </div>
     </div>

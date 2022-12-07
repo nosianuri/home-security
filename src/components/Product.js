@@ -46,13 +46,11 @@ const Product = ({ product }) => {
                 </span>
                 <p className='gap-3'><i className="fa-regular fa-circle-check pr-3"></i>{product.detail} <br />
                     <span className='gap-3'><i className="fa-regular fa-circle-check pr-3"></i>{product.description}</span></p>
-                <div className="dropdown dropdown-bottom dropdown-end ">
+                    <button className="btn m-1 px-16 bg-[#76323f] text-white view-btn"><a href="/#topform">Get Quote</a></button>
+                {/* <div className="dropdown dropdown-bottom dropdown-end ">
                     <label tabIndex="0" className="btn m-1 px-16 bg-secondary text-white view-btn"><a href="/#topform">Get Quote</a></label>
-                    {/* <ul tabIndex="0" className="dropdown-content menu p-2 shadow bg-secondary rounded-box w-52">
-                        <li className='text-white'><a>Item 1</a></li>
-                        <li className='text-white'><a>Item 2</a></li>
-                    </ul> */}
-                </div>
+                    
+                </div> */}
             </div>
         </div>
     )

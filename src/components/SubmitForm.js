@@ -8,7 +8,7 @@ const SubmitForm = () => {
       <div style={{
         background: `url(${reach})`
       }} className=' !bg-cover !bg-no-repeat'>
-      <div className='px-10 py-14 flex items-center mt-10 bg-opacity-25'>
+      <div className='px-10 py-14 flex items-center mt-10 bg-opacity-25 bg-gray-900'>
       
       <div className='sub-form w-[500px] p-8 rounded-2xl shadow-md' >
           <div className='text-center pb-5 '>

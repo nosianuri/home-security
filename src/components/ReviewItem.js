@@ -8,20 +8,24 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
 import './workSlider.css';
 
 // import required modules
-import { Navigation } from 'swiper';
+import { Navigation, Autoplay, Pagination } from 'swiper';
 
 const ReviewItem = () => {
-    // destructure data
+  // destructure data
   const { programs } = workouts;
   return (
     <Swiper
       slidesPerView={2}
       spaceBetween={32}
-      navigation={true}
+      autoplay={true}
+      navigation
+      pagination={{ clickable: true }}
       // grabCursor={true}
       breakpoints={{
         768: {
@@ -31,7 +35,7 @@ const ReviewItem = () => {
           slidesPerView: 4,
         },
       }}
-      modules={[Navigation]}
+      modules={[Navigation, Autoplay, Pagination]}
       className='workoutSlider'
     >
       {programs.map((program, idx) => {
@@ -39,16 +43,26 @@ const ReviewItem = () => {
         const { description, name } = program;
 
         return (
+
           <SwiperSlide
-            className='max-w-[300px] max-h-[220px] relative bg-[#d0e1e8] m-6'
             key={idx}
           >
-            <div className='lg:p-6 review-body'>
-            <p className='lg:text-xl'>{description}</p>
-            <p className='lg:mt-5 text-sm'>{name}</p>
+            <div class={`card w-full h-3/2 lg:card-side bg-[#986b72] shadow-xl`}>
+              <div class="card-body text-white">
+                <h2 class="card-title text-2xl">{description}</h2>
+                <p>{name}</p>
+              </div>
             </div>
 
+            {/* <div className='lg:p-6  '>
+             <p className='lg:text-xl'>{description}</p>
+             <p className='lg:mt-5 text-sm'>{name}</p>
+         </div> */}
+
+
+
           </SwiperSlide>
+
         );
       })}
     </Swiper>

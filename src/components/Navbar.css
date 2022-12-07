@@ -5,7 +5,15 @@
     color: rgba(10,51,95,0.88);
 }
 .nav-call{
-    color: rgba(10,51,95,0.88);
+    /* color: rgba(10,51,95,0.88); */
+}
+.navbar-end a{
+    border: 2px solid #76323f;
+}
+
+.navbar-end a:hover{
+    background: #76323f;
+    color: #fff;
 }
 .btn-ghost{
     color: rgba(10,51,95,0.88);
