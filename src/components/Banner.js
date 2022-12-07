@@ -31,21 +31,9 @@ const Banner = () => {
         .then(output => output.json())
         .then(data=> console.log(data))
         .catch(error => console.log(error))
-          
-        console.log(responseToZapier)
-        // console.log(responseToSheets.body)
-        // navigate to somewhere
-        // navigate()
+        
+        console.log("direct zap")
 
-  }
-
-  let sendLeadToSheets = async (e) => {
-    let firstName = e.target.first_name.value
-    let lastName = e.target.last_name.value
-    let phone = e.target.phone.value
-    let email = e.target.email.value
-    let zipCode = e.target.zip_code.value
-    if( phone.length < 10 && phone.length > 10 ){
         let responseToSheets = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
           method: "POST",
           body: JSON.stringify({
@@ -60,15 +48,17 @@ const Banner = () => {
         })
             .then(output => output.json())
             .catch(error => console.log(error))
-        console.log(responseToSheets.body)
+        console.log("Sheets")
         // navigate to somewhere
-        navigate()
-    }
-    else{
-        // show error here
-    }
+          
+       
+        // console.log(responseToSheets.body)
+        // navigate to somewhere
+        // navigate()
 
-}
+  }
+
+
 
   return (
     <div className='' id='topform'>
