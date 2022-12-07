@@ -31,8 +31,8 @@ const SubmitForm = () => {
             // "lp_test": 1,
         })
             .then(result => result.json())
-            .then(data3 => {
-              console.log(data3);
+            .then(data => {
+              console.log(data);
               navigate("/thanks");
   
             })
@@ -87,6 +87,7 @@ let sendLeadToSheets = async (e) => {
 }
 
   return (
+
     <div id='getquote'>
       <div style={{
         background: `url(${reach})`

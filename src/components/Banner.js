@@ -8,32 +8,34 @@ const Banner = () => {
   let navigate = new useNavigate()
   // sending data to zapier
   let sendLeadToZapier = async (e) => {
-      let firstName = e.target.first_name.value
-      let lastName = e.target.last_name.value
-      let phone = e.target.phone.value
-      let email = e.target.email.value
-      let zipCode = e.target.zip_code.value
+    e.preventDefault()
+    let firstName = e.target.first_name.value
+    let lastName = e.target.last_name.value
+    let phone = e.target.phone.value
+    let email = e.target.email.value
+    let zipCode = e.target.zip_code.value
+    console.log(phone.length)
 
-      if( phone.length < 10 && phone.length > 10 ){
-          let response = await fetch("", {
-              "lp_campaign_id": "",
-              "lp_campaign_key": "",
-              "first_name": firstName,
-              "last_name": lastName,
-              "phone": phone,
-              "email": email,
-              "zip_code": zipCode,
+        let responseToZapier = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
+          method: "POST",
+          body: JSON.stringify({
+            "lp_campaign_id": "61c158df57694",
+            "lp_campaign_key": "MQkGFrhcbtx4BDzq87TP",
+            "first_name": firstName,
+            "last_name": lastName,
+            "phone": phone,
+            "email": email,
+            "zip_code": zipCode,
           })
-              .then(result => result.json())
-              .catch(error => console.log(error))
-
-          // navigate to somewhere
-          console.log(response.body)
-          navigate()
-      }
-      else{
-          // show error here
-      }
+        })
+        .then(output => output.json())
+        .then(data=> console.log(data))
+        .catch(error => console.log(error))
+          
+        console.log(responseToZapier)
+        // console.log(responseToSheets.body)
+        // navigate to somewhere
+        // navigate()
 
   }
 
@@ -44,14 +46,17 @@ const Banner = () => {
     let email = e.target.email.value
     let zipCode = e.target.zip_code.value
     if( phone.length < 10 && phone.length > 10 ){
-        let responseToSheets = await fetch("", {
-            "lp_campaign_id": "",
-            "lp_campaign_key": "",
+        let responseToSheets = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
+          method: "POST",
+          body: JSON.stringify({
+            "lp_campaign_id": "61c158df57694",
+            "lp_campaign_key": "MQkGFrhcbtx4BDzq87TP",
             "first_name": firstName,
             "last_name": lastName,
             "phone": phone,
             "email": email,
             "zip_code": zipCode,
+          })
         })
             .then(output => output.json())
             .catch(error => console.log(error))
@@ -109,7 +114,7 @@ const Banner = () => {
                 <h1 className='mt-3'>Just give us a few details to get your <br /> FREE personalized quote!</h1>
               </div> */}
             </div>
-            <form onSubmit={sendLeadToZapier && sendLeadToSheets}>
+            <form onSubmit={sendLeadToZapier}>
             <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
             <div className='flex gap-4'>
               <input
@@ -135,6 +140,7 @@ const Banner = () => {
               type='text'
               maxLength="10"
               name="phone" 
+              minLength="10"
               placeholder='Phone Number*'
               className='input w-full max-w-md '
             />
