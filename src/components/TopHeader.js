@@ -12,10 +12,11 @@ const TopHeader = () => {
                 <h3 className='text-lg' >*Call to get pro Install + $0 Activation</h3>
                 <p className='text-sm'>*New customers only.</p>
             </div>
-            <div className='btn relative call-btn bg-[#e2b95d] lg:mr-5 text-white font-bold mt-3'>
-            <div className='h-[20px] w-[19px] absolute bg-[#e2b95d] -top-[10px] right-[70px] rotate-45'></div>
+            <div className='btn relative call-btn bg-[#83a84f] lg:mr-5 text-white font-bold mt-3'>
+            <div className='h-[20px] w-[19px] absolute bg-[#83a84f] -top-[10px] right-[70px] rotate-45'></div>
             Call to get offer!
             </div>
+            
         </div>
     </div>
   )

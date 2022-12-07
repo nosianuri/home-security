@@ -31,7 +31,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href='tel:+18554301263' className="btn bg-white text-[#76323f] text-white nav-call mr-5"><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a>
+          <a href='tel:+18554301263' className="btn bg-white text-white nav-call mr-5"><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a>
         </div>
       </div>
     </div>

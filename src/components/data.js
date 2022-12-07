@@ -3,7 +3,7 @@ export const workouts = {
     title: 'The proof is in the reviews',
     programs: [
       {
-        description: '“The experience is magical. Best overall home security of 2022”',
+        description: '“Its experience is magical. The best overall home security of 2022”',
         name: 'Maria Garcia',
       },
       {

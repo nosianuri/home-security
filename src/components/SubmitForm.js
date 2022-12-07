@@ -4,7 +4,6 @@ import reach from "../assets/banner-form.jpg";
 import './SubmitForm.css';
 
 const SubmitForm = () => {
-  // let navigate = new useNavigate();
   const navigate = useNavigate();
   // sending data to zapier
   let sendLeadToZapier = async (e) => {
@@ -14,77 +13,57 @@ const SubmitForm = () => {
     let phone = e.target.phone.value
     let email = e.target.email.value
     let zipCode = e.target.zip_code.value
+    console.log(phone.length)
 
-  if( (phone.length < 10) && (phone.length > 10) ){
-        let response = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
-            method: "POST",
-            body: JSON.stringify({
-                "lp_campaign_id": "61c158df57694",
-                "lp_campaign_key": "MQkGFrhcbtx4BDzq87TP",
-                "first_name": firstName,
-                "last_name": lastName,
-                "phone": phone,
-                "email": email,
-                "zip_code": zipCode,
-                "lp_test": 1,
-            })
-            // "lp_test": 1,
-        })
-            .then(result => result.json())
-            .then(data => {
-              console.log(data);
-              navigate("/thanks");
-  
-            })
-            .catch(error => console.log(error))
-
-        // navigate to somewhere
-        console.log(response.body)
-        // navigate()
-    }
-    else{
-        // show error here
-    }
-
-}
-
-let sendLeadToSheets = async (e) => {
-  let firstName = e.target.first_name.value
-  let lastName = e.target.last_name.value
-  let phone = e.target.phone.value
-  let email = e.target.email.value
-  let zipCode = e.target.zip_code.value
-  if( phone.length < 10 && phone.length > 10 ){
-      let responseToSheets = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
+        let responseToZapier = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
           method: "POST",
           body: JSON.stringify({
-              "lp_campaign_id": "61c158df57694",
-              "lp_campaign_key": "MQkGFrhcbtx4BDzq87TP",
-              "first_name": firstName,
-              "last_name": lastName,
-              "phone": phone,
-              "email": email,
-              "zip_code": zipCode,
-              "lp_test": 1,
+            "lp_campaign_id": "61c158df57694",
+            "lp_campaign_key": "MQkGFrhcbtx4BDzq87TP",
+            "first_name": firstName,
+            "last_name": lastName,
+            "phone": phone,
+            "email": email,
+            "zip_code": zipCode,
           })
-          // "lp_test": 1,
+        })
+        .then(output => output.json())
+        .then(data=> {
+          console.log(data);
+        navigate("/thanks");
       })
-          .then(output => output.json())
-          .then(data3 => {
-            console.log(data3);
-            navigate("/thanks");
+        .catch(error => console.log(error))
+        
+        console.log("direct zap")
 
+        let responseToSheets = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
+          method: "POST",
+          body: JSON.stringify({
+            "lp_campaign_id": "61c158df57694",
+            "lp_campaign_key": "MQkGFrhcbtx4BDzq87TP",
+            "first_name": firstName,
+            "last_name": lastName,
+            "phone": phone,
+            "email": email,
+            "zip_code": zipCode,
           })
-          .catch(error => console.log(error))
-      console.log(responseToSheets.body)
-      // navigate to somewhere
-      // navigate()
-  }
-  else{
-      // show error here
+        })
+            .then(output => output.json())
+            .then(data=> {
+              console.log(data);
+            navigate("/thanks");
+          })
+            .catch(error => console.log(error))
+        console.log("Sheets")
+        // navigate to somewhere
+          
+       
+        // console.log(responseToSheets.body)
+        // navigate to somewhere
+        // navigate()
+
   }
 
-}
 
   return (
 

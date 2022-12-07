@@ -8,12 +8,14 @@
     /* color: rgba(10,51,95,0.88); */
 }
 .navbar-end a{
-    border: 2px solid #76323f;
+    border: 2px solid rgba(10,51,95,0.88);
+    color: rgba(10,51,95,0.88);
 }
 
 .navbar-end a:hover{
-    background: #76323f;
+    background: #9CC3D5FF;
     color: #fff;
+    border: 1px solid #9CC3D5FF;
 }
 .btn-ghost{
     color: rgba(10,51,95,0.88);

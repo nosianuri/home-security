@@ -47,7 +47,7 @@ const ReviewItem = () => {
           <SwiperSlide
             key={idx}
           >
-            <div class={`card w-full h-3/2 lg:card-side bg-[#986b72] shadow-xl`}>
+            <div class={`card w-full h-3/2 lg:card-side bg-[#1e73be] shadow-xl`}>
               <div class="card-body text-white">
                 <h2 class="card-title text-2xl">{description}</h2>
                 <p>{name}</p>
