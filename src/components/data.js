@@ -19,7 +19,7 @@ export const workouts = {
         name: 'Shai Hope',
       },
       {
-        description: '“The most comprehensive smart home security system.”',
+        description: '“I Absolutely love the most comprehensive smart home security system.”',
         name: 'Ralph Kiner',
       },
       {

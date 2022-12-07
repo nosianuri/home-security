@@ -2,8 +2,69 @@ import React from 'react';
 import homebanner from "../assets/banner.avif";
 import './Banner.css';
 import rightform from "../assets/rightform.png";
+import { useNavigate } from 'react-router-dom';
 
 const Banner = () => {
+  let navigate = new useNavigate()
+  // sending data to zapier
+  let sendLeadToZapier = async (e) => {
+      let firstName = e.target.first_name.value
+      let lastName = e.target.last_name.value
+      let phone = e.target.phone.value
+      let email = e.target.email.value
+      let zipCode = e.target.zip_code.value
+
+      if( phone.length < 10 && phone.length > 10 ){
+          let response = await fetch("", {
+              "lp_campaign_id": "",
+              "lp_campaign_key": "",
+              "first_name": firstName,
+              "last_name": lastName,
+              "phone": phone,
+              "email": email,
+              "zip_code": zipCode,
+          })
+              .then(result => result.json())
+              .catch(error => console.log(error))
+
+          // navigate to somewhere
+          console.log(response.body)
+          navigate()
+      }
+      else{
+          // show error here
+      }
+
+  }
+
+  let sendLeadToSheets = async (e) => {
+    let firstName = e.target.first_name.value
+    let lastName = e.target.last_name.value
+    let phone = e.target.phone.value
+    let email = e.target.email.value
+    let zipCode = e.target.zip_code.value
+    if( phone.length < 10 && phone.length > 10 ){
+        let responseToSheets = await fetch("", {
+            "lp_campaign_id": "",
+            "lp_campaign_key": "",
+            "first_name": firstName,
+            "last_name": lastName,
+            "phone": phone,
+            "email": email,
+            "zip_code": zipCode,
+        })
+            .then(output => output.json())
+            .catch(error => console.log(error))
+        console.log(responseToSheets.body)
+        // navigate to somewhere
+        navigate()
+    }
+    else{
+        // show error here
+    }
+
+}
+
   return (
     <div className='' id='topform'>
       <div style={{
@@ -48,67 +109,46 @@ const Banner = () => {
                 <h1 className='mt-3'>Just give us a few details to get your <br /> FREE personalized quote!</h1>
               </div> */}
             </div>
+            <form onSubmit={sendLeadToZapier && sendLeadToSheets}>
             <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
             <div className='flex gap-4'>
               <input
                 type='text'
+                name="first_name"
                 placeholder='First Name*'
                 className='input w-1/2 '
               /><input
                 type='text'
+                name="last_name"
                 placeholder='Last Name*'
                 className='input w-1/2  '
               />
             </div>
 
             <input
-              type='email'
-              placeholder='Email Address'
-              className='input w-full max-w-md'
-            />
-
-            <input
               type='text'
+              name="zip_code"
               placeholder='ZIP Code*'
               className='input w-full max-w-md '
             />
             <input
               type='text'
+              maxLength="10"
+              name="phone" 
               placeholder='Phone Number*'
               className='input w-full max-w-md '
+            />
+             <input
+              type='email'
+              name="email"
+              placeholder='Email Address'
+              className='input w-full max-w-md'
             />
 
             <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
             <button className='btn lg:px-32 md:px-16 sm:px-10 bg-[#1e73be] mb-5 text-lg font-bold text-white submit-btn'>Submit</button>
-              {/* <input
-                type='text'
-                placeholder='First Name*'
-                className='input w-full max-w-md'
-              />
-              <input
-                type='text'
-                placeholder='Last Name*'
-                className='input w-full max-w-md'
-              />
-              <input
-                type='email'
-                placeholder='Email Address'
-                className='input w-full max-w-md'
-              />
-              <div className='lg:flex gap-4'>
-                <input
-                  type='text'
-                  placeholder='ZIP*'
-                  className='input lg:w-1/2 '
-                /><input
-                  type='text'
-                  placeholder='Phone Number*'
-                  className='input lg:w-3/2 phone-input'
-                />
-              </div>
-              <p className='text-slate-400 leading-none mute-text'>By clicking “Request a Quote” you confirm you are genuinely interested in receiving more information about Vivint and constitutes your electronic signature by means of automatic technology; which may include phone calls, texts, emails, and prerecorded messages marketing Vivint. Consent is not required to make a purchase.</p>
-              <button className='btn lg:px-32 btn-secondary mb-5 text-lg font-bold text-white'>Submit</button> */}
             </div>
+</form>
           </div>
           <div className='mt-16 bg-[#986b72] h-1/2 p-9'>
             <img width={100} src={rightform} alt="" />

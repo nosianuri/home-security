@@ -46,7 +46,7 @@ const Product = ({ product }) => {
                 </span>
                 <p className='gap-3'><i className="fa-regular fa-circle-check pr-3"></i>{product.detail} <br />
                     <span className='gap-3'><i className="fa-regular fa-circle-check pr-3"></i>{product.description}</span></p>
-                    <button className="btn m-1 px-16 bg-[#76323f] text-white view-btn"><a href="/#topform">Get Quote</a></button>
+                    <button className="btn m-1 px-16  view-btn"><a href="/#topform">Get Quote</a></button>
                 {/* <div className="dropdown dropdown-bottom dropdown-end ">
                     <label tabIndex="0" className="btn m-1 px-16 bg-secondary text-white view-btn"><a href="/#topform">Get Quote</a></label>
                     

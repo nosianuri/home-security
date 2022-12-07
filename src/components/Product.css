@@ -1,7 +1,12 @@
-.view-btn:hover{
+.view-btn{
 background-color: white;
-border: 2px solid #4d7c0f;
-color: #4d7c0f;
+border: 2px solid #76323f;
+color: #76323f;
+}
+
+.view-btn:hover{
+    background-color: #76323f;
+    color: #fff;
 }
 
 .product-img:hover{
