@@ -118,7 +118,7 @@ for a safer home</h2>
 }
     </div>
     <div className='text-center mt-10'>
-        <button className="btn  view-btn"><a href="/#topform">View More</a></button>
+        <button className="btn  view-btn"><a href="/products">View More</a></button>
         </div>
     </div>
   )
