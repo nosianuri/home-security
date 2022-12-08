@@ -18,6 +18,10 @@
     background: white;
     color: rgba(10, 51, 95, 0.88);
     border: 2px solid rgba(10, 51, 95, 0.88);
+    font-size: 20px;
+}
+.request-btn{
+    font-size: 20px;
 }
 
 .offer-header {

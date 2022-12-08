@@ -6,13 +6,14 @@ import Products from '../../components/Products'
 import Review from '../../components/Review'
 import BelowHeader from '../../components/BelowHeader'
 import Reviews from '../../components/Reviews'
+import MainBanner from '../../components/MainBanner'
+import TopBanner from '../../components/TopBanner'
 
 const Home = () => {
   return (
     <div>
-       
-        <BelowHeader />
-        <Banner />
+    <TopBanner />
+        <MainBanner />
         <Products />
         <Offer />
         <Review />

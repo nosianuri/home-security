@@ -7,7 +7,7 @@ const Thanks = () => {
     <div className='min-h-screen bg-[#a0b7c1] flex justify-center'>
 <div className=' '>
   <div className='text-center mt-16 mb-5'>
-  <p className='text-white lg:text-3xl md:text-xl text-lg'>Hi, Karles Anka! Your quote is on its way!</p>
+  <p className='text-white lg:text-3xl md:text-xl text-lg mb-2'>Hi, Your quote is on its way!</p>
   <p className='text-white'>Here's what to expect</p>
   </div>
   
@@ -28,7 +28,7 @@ const Thanks = () => {
     <div className='h-[20px] w-[20px] absolute bg-[#7e4129] -bottom-[10px] right-[369px] rotate-45'></div>
   </div>
   <div className='text-center mt-5 mb-5'>
-  <button className="btn btn-wide text-white bg-[#e2b95d] text-xl thanks-btn"><a href='tel:+18554301263'><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
+  <button className="btn btn-wide text-white bg-[#1e73be] text-xl thanks-btn"><a href='tel:+18554301263'><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
   </div>
 </div>
     </div>

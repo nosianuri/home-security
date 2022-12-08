@@ -121,7 +121,7 @@ const SubmitForm = () => {
                 />
 
                 <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
-                <button id='form-submit' className='btn lg:px-32 md:px-16 sm:px-10 bg-[#1e73be] mb-5 text-lg font-bold text-white submit-btn'>Submit</button>
+                <button className='btn lg:px-32 md:px-16 sm:px-10  mb-5 text-lg font-bold text-white submit-btn'>Submit</button>
               </div>
             </form>
 

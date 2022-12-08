@@ -1,4 +1,6 @@
 import React from 'react';
+import quote from '../assets/img-quote.png';
+import redstar from '../assets/redstar.png';
 // import data
 import { workouts } from './data';
 
@@ -47,10 +49,21 @@ const ReviewItem = () => {
           <SwiperSlide
             key={idx}
           >
-            <div class={`card w-full h-3/2 lg:card-side bg-[#1e73be] shadow-xl`}>
-              <div class="card-body text-white">
-                <h2 class="card-title text-2xl">{description}</h2>
-                <p>{name}</p>
+            <div class={`card w-full h-3/2 lg:card-side bg-base-100 shadow-xl`}>
+              <div class="card-body ">
+              <img width={20} src={quote} alt="" />
+              <div className='text-center'>
+                <h2 className="card-title text-lg text-[#703943]">{description}</h2>
+                <span className='flex items-center py-3 justify-center'>
+                    <img width={20} src={redstar} alt="" />
+                    <img width={20} src={redstar} alt="" />
+                    <img width={20} src={redstar} alt="" />
+                    <img width={20} src={redstar} alt="" />
+                    <img width={20} src={redstar} alt="" />
+                    
+                </span>
+                <p className='text-[#76323f]'>{name}</p>
+                </div>
               </div>
             </div>
 
