@@ -1,6 +1,6 @@
 .call-btn{
     animation-name: trin;
-    animation-duration: 1.5s;
+    animation-duration: 6.5s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -49,8 +49,12 @@
   
   }
 
+  .topheader-container{
+    background: rgba(10, 51, 95, 0.88);
+  }
+
 .call-btn:hover{
-  background: #FFA921;
+  background: #7743DB;
   /* animation: shake 0.9s; */
 }
 /* @keyframes shake{

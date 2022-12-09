@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import TopHeader from './components/TopHeader';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
         <TopHeader />
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        
         <Route path='/thanks' element={<Thanks />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>

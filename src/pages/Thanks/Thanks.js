@@ -11,24 +11,24 @@ const Thanks = () => {
   <p className='text-white'>Here's what to expect</p>
   </div>
   
-  <div className='bg-[#7e4129] relative lg:px-32 py-10'>
+  <div className='bg-[#ee6c4d] relative lg:px-32 py-10'>
   
-    <div>
+    <div className='mb-2'>
       <h1 className='text-white text-lg font-bold'>1. A Call</h1>
       <p className='text-white'>A Vivint expert will reach out with your personalized home security qoute</p>
     </div>
-    <div>
+    <div className='mb-2'>
       <h1 className='text-white text-lg font-bold'>2. Product Assistance</h1>
       <p className='text-white'>You'll get home security options that fit your lifestyle needs</p>
     </div>
     <div>
-      <h1 className='text-white text-lg font-bold'>3. Ypur Qoute</h1>
+      <h1 className='text-white text-lg font-bold'>3. Your Qoute</h1>
       <p className='text-white'>Compare pricing and features to find the one that fits your budget</p>
     </div>
-    <div className='h-[20px] w-[20px] absolute bg-[#7e4129] -bottom-[10px] right-[369px] rotate-45'></div>
+    <div className='h-[20px] w-[20px] absolute bg-[#ee6c4d] -bottom-[10px] right-[369px] rotate-45'></div>
   </div>
   <div className='text-center mt-5 mb-5'>
-  <button className="btn btn-wide text-white bg-[#1e73be] text-xl thanks-btn"><a href='tel:+18554301263'><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
+  <button className="btn btn-wide  text-xl thanks-btn"><a href='tel:+18554301263'><i className="fa-solid fa-phone pr-2"></i>(855) 430-1263</a></button>
   </div>
 </div>
     </div>

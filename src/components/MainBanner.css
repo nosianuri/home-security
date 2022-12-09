@@ -11,14 +11,18 @@
 }
 
 .banner-format{
-    background: linear-gradient(rgba(76, 123, 135, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/home-security-header.jpg");
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(35, 34, 34, 0.7)), url("../assets/home-security-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+ul li{
+    list-style-type: circle;
 }
 
 .article {
     padding-top: 50px;
     padding-right: 60px;
+    margin-bottom: 50px;
 }
 /* .article-lead{
 margin-left: 50px;

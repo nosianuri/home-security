@@ -68,101 +68,82 @@ const Banner = () => {
 
 
   return (
-    <div className='' id='topform'>
-      <div style={{
-                background: `url(${homebanner})` 
-            }} className='!bg-cover !bg-no-repeat'>
-            <div className="bg-opacity-25"></div>
-
-      <div className='px-10 py-14 items-center justify-center bg-opacity-25 bg-gray-900'>
-      
-        <div className='text-center pb-5 text-white bg-opacity-25'>
-          <p className='lg:text-4xl md:text-2xl text-xl pb-3 font-bold'>
-            Get smart home products to protect <br /> what matters most
-          </p>
-          <h1 className=''>Customize your home security with 24/7 alarm monitoring</h1>
+    <div >
+    <div className='banner banner-text' >
+    <div className='banner-format'>
+        <div className='d-flex justify-content-center article'>
+            <div className='article-lead ml-16'>
+                <h1 className='text-6xl text-white leading-normal font-bold mb-5'>Send us your request Today! </h1>
+                <h2 className='text-white text-4xl leading-normal'>Fill our <a href="/#left-form" className='font-bold text-5xl text-[#0988f1] italic'>Form</a> give us a <a href="tel:+18554301263" className='font-bold text-5xl text-[#057be1] italic'>Call</a> to directly assist Intelligent Home or Business Security System.</h2>
+                <ul className='pl-10 text-white text-lg text-2xl mt-5'>
+                    <li>Professionals with a valid certification.</li>
+                    <li>Free Installation.</li>
+                    <li>Lifetime Warrenty on Devices & Car Guard.</li>
+                    <li>Advance Home Automation.</li>
+                    
+                </ul>
+                <h3 className='text-3xl text-white font-bold mt-5'>Get a Free Estimate Today! No Obligation!</h3>
+            </div>
         </div>
-        <div className='lg:flex justify-center mt-10'>
-          <div className='lg:mt-16 bg-[#7743DB] h-1/2 p-5 right-form' >
-            <p className='text-white text-xl'>Vivint Smart Home Offers:</p>
-            <p className='text-white'><i className="fa-solid fa-check pr-2"></i>Vivint remote mobile access</p>
-            <p className='text-white'><i className="fa-solid fa-check pr-2"></i>Get video push notification</p>
-            <p className='text-white'><i className="fa-solid fa-check pr-2"></i>Smart home automation</p>
-            <p className='text-white'><i className="fa-solid fa-check pr-2"></i>1080p HD video quality</p>
-            <p className='text-white'><i className="fa-solid fa-check pr-2"></i>24/7 continuous video recording</p>
-          </div>
-          <div className='sub-form lg:w-[450px]  rounded-2xl shadow-md  ' >
+</div>
+        <div>
             <div>
-            <div className='text-center pb-5 pt-8 px-5'>
-            <p className='lg:text-3xl sm:text-xl pb-3 text-white'>
-              <span className='font-bold '>Experience Smarter
-                Security</span> with
-              Vivint-monitored <span className='font-bold'>Home
-                Security Systems</span>
-            </p>
-            <h1 className='text-white'>Get peace of mind with an Vivint smart home security
-              system customized to the needs of your home and family.</h1>
-          </div>
-              {/* <div className='text-center pb-5 '>
-                <p className='text-xl relative form_header  font bold'>
-                <div className='h-[40px] w-[40px] absolute bg-[#365314] right-[200px]  rotate-45'></div>
-                  <span className='absolute text-center justify-center right-[110px]'>Get a FREE quote now</span>
-                </p>
-                <h1 className='mt-3'>Just give us a few details to get your <br /> FREE personalized quote!</h1>
-              </div> */}
-            </div>
-            <form onSubmit={sendLeadToZapier}>
-            <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
-            <div className='flex gap-4'>
-              <input
-                type='text'
-                name="first_name"
-                placeholder='First Name*'
-                className='input w-1/2 '
-              /><input
-                type='text'
-                name="last_name"
-                placeholder='Last Name*'
-                className='input w-1/2  '
-              />
-            </div>
 
-            <input
-              type='text'
-              name="zip_code"
-              placeholder='ZIP Code*'
-              className='input w-full max-w-md '
-            />
-            <input
-              type='text'
-              maxLength="10"
-              name="phone" 
-              minLength="10"
-              placeholder='Phone Number*'
-              className='input w-full max-w-md '
-            />
-             <input
-              type='email'
-              name="email"
-              placeholder='Email Address'
-              className='input w-full max-w-md'
-            />
 
-            <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
-            <button className='btn lg:px-32 md:px-16 sm:px-10 bg-[#1e73be] mb-5 text-lg font-bold text-white submit-btn'>Submit</button>
+                <div className='d-flex justify-content-center'>
+                    <div className='banner-form form-group '>
+                        <h4 className='mt-5'>Experience Smarter Security with Vivint-monitored Home Security Systems</h4>
+                        <h5 className='mt-3 mb-3'>Get peace of mind with an Vivint smart home security
+      system customized to the needs of your home and family.</h5>
+                        <form onSubmit={sendLeadToZapier} id='topform'>
+                            <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
+                                <div className='flex gap-4'>
+                                    <input
+                                        type='text'
+                                        name="first_name"
+                                        placeholder='First Name*'
+                                        className='input w-1/2 '
+                                    /><input
+                                        type='text'
+                                        name="last_name"
+                                        placeholder='Last Name*'
+                                        className='input w-1/2  '
+                                    />
+                                </div>
+
+                                <input
+                                    type='text'
+                                    name="zip_code"
+                                    placeholder='ZIP Code*'
+                                    className='input w-full max-w-md '
+                                />
+                                <input
+                                    type='text'
+                                    maxLength="10"
+                                    name="phone"
+                                    minLength="10"
+                                    placeholder='Phone Number*'
+                                    className='input w-full max-w-md '
+                                />
+                                <input
+                                    type='email'
+                                    name="email"
+                                    placeholder='Email Address'
+                                    className='input w-full max-w-md'
+                                />
+
+                                <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
+                                <button className='btn lg:px-32 md:px-16 sm:px-10 bg-[#1e73be] mb-10 text-lg font-bold text-white submit-btn'>Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-</form>
-          </div>
-          <div className='mt-16 bg-[#7743DB] h-1/2 p-9'>
-            <img width={100} src={rightform} alt="" />
-            <p className='text-white font-bold'>Call to Get a Free 1-on-1</p>
-            <p className='text-white font-bold'>Smart Home Security <br /> Consultation</p>
-          </div>
         </div>
-
-      </div>
-      </div>
     </div>
+
+</div>
+
   )
 }
 

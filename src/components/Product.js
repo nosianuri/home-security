@@ -31,9 +31,9 @@ const Product = ({ product }) => {
 <div>
 
         <div className="lg:max-w-md bg-base-100 shadow-xl">
-        <h2 className="bg-neutral py-2 text-white pl-2">{product.name}</h2>
-            <figure className=" pt-10 product-img">
-                <img className='flex justify-center !mx-auto' width={60} src={product.img} alt="Shoes" class=" transform transition-all hover:skew-x-6" />
+        <h2 className="bg-[#ee6c4d] py-2 text-white pl-2">{product.name}</h2>
+            <figure className=" pt-10 product-img flex justify-center">
+                <img className='' width={60} src={product.img} alt="Shoes" class=" transform transition-all hover:skew-x-6" />
             </figure>
             <div className=" items-center mt-5 ">
             

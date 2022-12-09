@@ -1,5 +1,11 @@
 .thanks-btn:hover{
-background: #c8a249;
+background: #1e73be;
 color: #fff;
-border: 1px solid #e2b95d;
+border: 1px solid #1e73be;
+}
+
+.thanks-btn{
+    border: 1px solid #1e73be;
+    color: #1e73be;
+    background: #fff;
 }

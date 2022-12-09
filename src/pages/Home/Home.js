@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div>
     <TopBanner />
-        <MainBanner />
+        <Banner />
         <Products />
         <Offer />
         <Review />

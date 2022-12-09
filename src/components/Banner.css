@@ -1,4 +1,4 @@
-.homebanner{
+/* .homebanner{
     background-image: url(../assets/banner.avif);
 }
 
@@ -20,4 +20,350 @@
     .right-form{
         margin-bottom: 45px;
     }
+} */
+
+.banner {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/smart-switch.webp"); */
+    /* background-position: center; */
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    /* place-items: center; */
+    position: relative;
 }
+
+.banner-format{
+    background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(35, 34, 34, 0.7)), url("../assets/home-security-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul li{
+    list-style-type: circle;
+}
+
+.article {
+    padding-top: 50px;
+    padding-right: 60px;
+    margin-bottom: 50px;
+}
+/* .article-lead{
+margin-left: 50px;
+} */
+
+/* .article h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+} */
+
+/* .article h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 70px;
+} */
+
+.article h4 {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+    /* line-height: 45px; */
+}
+
+/* .article h3 {
+    color: #fff;
+    font-size: 18px;
+} */
+
+.article h5 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.article h5 i {
+    padding-right: 20px;
+}
+
+.million {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #ececf0 0%,
+            #8d5ebe 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.cost {
+    color: rgb(243, 161, 38);
+    font-size: 40px;
+}
+
+.banner-form label input {
+    margin-left: 10px;
+}
+
+.banner-button {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    border: #fff;
+}
+
+.phone-button {
+    background: linear-gradient(90deg, #64aebe, #0E5E6F);
+    color: #fff;
+    font-style: italic;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.phone-button i {
+    animation-name: trin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes trin {
+
+    from {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    20%,
+    32%,
+    44%,
+    56%,
+    68% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    23%,
+    35%,
+    47%,
+    59%,
+    71% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    26%,
+    38%,
+    50%,
+    62%,
+    74% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+
+    29%,
+    41%,
+    53%,
+    65%,
+    77% {
+        transform: rotate3d(0, 0, 1, -15deg);
+    }
+
+    80% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+.get-button {
+    background: #fff;
+    color: #0E5E6F;
+    font-style: italic;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.get-button:hover {
+    background: linear-gradient(90deg, #64aebe, #0E5E6F);
+    color: #fff;
+}
+#pinjur{
+    margin-right: 30px !important;
+}
+
+.apply {
+    background: #3621ad;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-top: 8px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+}
+
+.apply:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.banner-form {
+    width: 550px;
+    /* border-radius: 10px; */
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding: 15px; */
+    color: #000000;
+    font-weight: 600;
+    /* margin-right: 90px; */
+    position: relative;
+    background-image: linear-gradient(#ECEFF1, #CFD8DC);
+    /* margin-top: 50px; */
+    /* margin-bottom: 130px; */
+}
+
+/* .form-submit {
+    background: #3621ad;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+
+#form-submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #3621ad;
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.banner-form h4 {
+    color: #1f191c;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.radio {
+    margin-top: 5px;
+}
+
+label {
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .banner {
+        display: block;
+    }
+
+    .article {
+        margin-left: 20px;
+        margin-right: 0px;
+        padding-top: 25px;
+    }
+
+    .cost {
+        font-size: 30px;
+    }
+
+    .article h2 {
+        line-height: 50px;
+        font-size: 27px;
+    }
+
+    .phone-button {
+        width: 140px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+    
+    .get-button {
+        width: 140px;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+
+
+    .article h1 {
+        font-size: 30px;
+        color: white;
+    }
+
+    .banner-button {
+        font-size: 10px;
+    }
+
+    .article h5 {
+
+        font-size: 20px;
+    }
+
+    .article h4 {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .banner-form {
+        width: 330px;
+        padding: 30px;
+        margin-right: 0px;
+        /* margin-left: 15px; */
+        display: inline-block;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .million {
+        font-size: 20px;
+    }
+}
+
+
+/* @media only screen and (min-width: 689px) and (max-width: 992px) {
+    
+} */

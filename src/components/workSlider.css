@@ -2,6 +2,9 @@
     height: 320px;
     /* background: pink; */
   }
+  .swiper-theme-color{
+    color: #ee6c4d;
+  }
   
   .workoutSlider .swiper-button-prev::after,
   .workoutSlider .swiper-button-next::after {
