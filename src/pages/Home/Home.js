@@ -8,12 +8,14 @@ import BelowHeader from '../../components/BelowHeader'
 import Reviews from '../../components/Reviews'
 import MainBanner from '../../components/MainBanner'
 import TopBanner from '../../components/TopBanner'
+import BelowOptions from '../../components/BelowOptions'
 
 const Home = () => {
   return (
     <div>
     <TopBanner />
         <Banner />
+        <BelowOptions />
         <Products />
         <Offer />
         <Review />
