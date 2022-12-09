@@ -49,7 +49,7 @@ const ReviewItem = () => {
           <SwiperSlide
             key={idx}
           >
-            <div class={`card w-full h-3/2 lg:card-side bg-base-100 shadow-xl`}>
+            <div class={`card w-full h-3/2 lg:card-side bg-[#f5f4f4] shadow-xl`}>
               <div class="card-body ">
               <img width={20} src={quote} alt="" />
               <div className='text-center'>

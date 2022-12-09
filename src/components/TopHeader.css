@@ -77,10 +77,13 @@
 @media screen and (max-width: 780px) {
     .topheader{
         text-align: center;
-        
+    }
+    .topheader-container{
+      padding-top: 19px;
+      padding-bottom: 10px;
     }
     .call-btn{
-        margin-bottom: 10px;
+        display: none;
     }
     .top-header-img{
         padding-top: 70px;
