@@ -220,8 +220,16 @@ button {
     font-style: italic;
     font-size: 30px;
 }
+.fill-btn{
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+}
 .fill-btn:hover{
 background: #5BB318;
+}
+.call-us-btn{
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
 }
 .call-us-btn:hover{
     background: #CD104D;
