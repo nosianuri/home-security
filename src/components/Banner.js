@@ -94,8 +94,8 @@ const Banner = () => {
             <div className='text-center' id='topform'>
               <div className='d-flex justify-content-center'>
                 <div className='banner-form items-center form-group '>
-                  <h4 className='mt-5 !text-[#371B58]'>Experience Smarter Security with Vivint-monitored Home Security Systems</h4>
-                  <h5 className='mt-3 mb-3'>Get peace of mind with a Vivint smart home security
+                  <h4 className='mt-5 !text-white '>Experience Smarter Security with Vivint-monitored Home Security Systems</h4>
+                  <h5 className='mt-3 mb-3 text-white'>Get peace of mind with a Vivint smart home security
                     system customized to the needs of your home and family.</h5>
                   <form onSubmit={sendLeadToZapier}>
                     <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
@@ -134,7 +134,7 @@ const Banner = () => {
                         className='input w-full max-w-md'
                       />
 
-                      <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
+                      <p className='text-white  mute-text'>By submitting this form you agree to our <span className='text-[#F5EEDC] text-xs'>Communication and Privacy Policy </span></p>
                       <button className='btn lg:px-32 md:px-16 sm:px-10 !bg-[#7743DB] mb-10 text-lg font-bold text-white submit-btn'>Submit</button>
                     </div>
                   </form>
