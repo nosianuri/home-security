@@ -4,9 +4,7 @@
 .menu{
     color: rgba(10,51,95,0.88);
 }
-.nav-call{
-    /* color: rgba(10,51,95,0.88); */
-}
+
 .navbar-end a{
     border: 2px solid rgba(10,51,95,0.88);
     color: rgba(10,51,95,0.88);
@@ -19,4 +17,9 @@
 }
 .btn-ghost{
     color: rgba(10,51,95,0.88);
+}
+@media screen and (max-width: 780px) {
+    .nav-call{
+        font-size: 12px;
+    }
 }
