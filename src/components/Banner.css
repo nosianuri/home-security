@@ -257,9 +257,19 @@ label {
         box-sizing:inherit;
     }
     .fill-text{
-        font-size: 20px;
+        font-size: 18px !important;
         line-height: normal !important;
     }
+    .send-us{
+        font-size: 25px !important;
+    }
+    .fill-btn{
+        font-size: 15px;
+        margin-right: 0px;
+    }
+    /* .fill-call{
+        display: inline-block;
+    } */
 
     .article {
         margin-left: 20px;
@@ -281,7 +291,10 @@ label {
         border-radius: 10px;
         font-size: 15px;
     }
-
+.call-us-btn{
+    font-size: 15px;
+    margin-left: 0px;
+}
     
     .get-button {
         width: 140px;
@@ -308,9 +321,12 @@ label {
         font-size: 17px;
         line-height: 30px;
     }
+    .article-lead{
+       margin-right: 0px;
+    }
 
     .banner-form {
-        width: 330px;
+        width: 300px;
         padding: 30px;
         margin: 0px auto;
         display: inline-block;
