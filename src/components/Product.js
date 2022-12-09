@@ -51,13 +51,10 @@ const Product = ({ product }) => {
                 <p className='gap-3'><i className="fa-regular fa-circle-check pr-3"></i>{product.detail} </p>
                     <p className='gap-3'><i className="fa-regular fa-circle-check pr-3"></i>{product.description}</p>
                 </div>
-                    <div className='mx-5 pb-4'>
-                    <button className="btn w-full view-btn"><a href="/#topform">Get Quote</a></button>
+                    <div className='mx-5 pb-4 text-center'>
+                    <button className="btn lg:w-full w-1/2 view-btn"><a href="/#topform">Get Quote</a></button>
                     </div>
-                {/* <div className="dropdown dropdown-bottom dropdown-end ">
-                    <label tabIndex="0" className="btn m-1 px-16 bg-secondary text-white view-btn"><a href="/#topform">Get Quote</a></label>
-                    
-                </div> */}
+                
             </div>
         </div>
         

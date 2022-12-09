@@ -23,7 +23,7 @@ const ReviewItem = () => {
   const { programs } = workouts;
   return (
     <Swiper
-      slidesPerView={2}
+      slidesPerView={1}
       spaceBetween={32}
       autoplay={true}
       navigation
@@ -53,8 +53,8 @@ const ReviewItem = () => {
               <div class="card-body ">
               <img width={20} src={quote} alt="" />
               <div className='text-center'>
-                <h2 className="card-title text-lg text-[#703943]">{description}</h2>
-                <span className='flex items-center py-3 justify-center'>
+                <h2 className="card-title lg:text-lg text-sm text-[#703943]">{description}</h2>
+                <span className='flex items-center py-3  justify-center'>
                     <img width={20} src={redstar} alt="" />
                     <img width={20} src={redstar} alt="" />
                     <img width={20} src={redstar} alt="" />
@@ -62,7 +62,7 @@ const ReviewItem = () => {
                     <img width={20} src={redstar} alt="" />
                     
                 </span>
-                <p className='text-[#76323f]'>{name}</p>
+                <p className='text-[#76323f] text-xs'>{name}</p>
                 </div>
               </div>
             </div>

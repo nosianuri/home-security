@@ -1,37 +1,12 @@
-/* .homebanner{
-    background-image: url(../assets/banner.avif);
-}
-
-.form_header{
-    height: 50px;
-    background: #365314;
-    color: #fff;
-    font-weight: 700;
-    padding-top: 14px ;
-}
-
-.mute-text{
-    font-size: 13px;
-}
-@media screen and (max-width:780px) {
-    .phone-input{
-        margin-top: 20px;
-    }
-    .right-form{
-        margin-bottom: 45px;
-    }
-} */
-
 .banner {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/smart-switch.webp"); */
-    /* background-position: center; */
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
     display: flex;
-    
-    /* place-items: center; */
     position: relative;
+}
+.fill-text{
+    font-size: 40px;
 }
 
 .banner-format{
@@ -48,23 +23,8 @@ ul li{
     padding-right: 60px;
     margin-bottom: 50px;
 }
-/* .article-lead{
-margin-left: 50px;
-} */
 
-/* .article h1 {
-    font-size: 45px;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 20px;
-} */
 
-/* .article h2 {
-    color: #fff;
-    font-size: 25px;
-    margin-bottom: 20px;
-    line-height: 70px;
-} */
 
 .article h4 {
     color: #fff;
@@ -73,10 +33,7 @@ margin-left: 50px;
     /* line-height: 45px; */
 }
 
-/* .article h3 {
-    color: #fff;
-    font-size: 18px;
-} */
+
 
 .article h5 {
     color: #fff;
@@ -115,11 +72,6 @@ margin-left: 50px;
     to {
         background-position: 200% center;
     }
-}
-
-.cost {
-    color: rgb(243, 161, 38);
-    font-size: 40px;
 }
 
 .banner-form label input {
@@ -255,16 +207,6 @@ button {
     /* margin-bottom: 130px; */
 }
 
-/* .form-submit {
-    background: #3621ad;
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
-    border-radius: 15px;
-    margin-top: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-} */
 
 #form-submit {
     margin-top: 20px;
@@ -299,6 +241,13 @@ label {
     .banner {
         display: block;
     }
+    *{
+        box-sizing:inherit;
+    }
+    .fill-text{
+        font-size: 20px;
+        line-height: normal !important;
+    }
 
     .article {
         margin-left: 20px;
@@ -306,8 +255,8 @@ label {
         padding-top: 25px;
     }
 
-    .cost {
-        font-size: 30px;
+    .banner-form h4 {
+        font-size: 20px;
     }
 
     .article h2 {
@@ -352,18 +301,11 @@ label {
         width: 330px;
         padding: 30px;
         margin-right: 0px;
-        /* margin-left: 15px; */
         display: inline-block;
-        /* align-items: center;
-        justify-content: center; */
+       
     }
 
-    .million {
-        font-size: 20px;
-    }
+    
 }
 
 
-/* @media only screen and (min-width: 689px) and (max-width: 992px) {
-    
-} */

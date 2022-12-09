@@ -72,17 +72,17 @@ const Banner = () => {
     <div className='banner banner-text' >
     <div className='banner-format'>
         <div className='d-flex justify-content-center article'>
-            <div className='article-lead ml-16'>
-                <h1 className='text-6xl text-white leading-normal font-bold mb-5'>Send us your request Today! </h1>
-                <h2 className='text-white text-4xl leading-normal'>Fill our <a href="/#left-form" className='font-bold text-5xl text-[#0988f1] italic'>Form</a> give us a <a href="tel:+18554301263" className='font-bold text-5xl text-[#057be1] italic'>Call</a> to directly assist Intelligent Home or Business Security System.</h2>
-                <ul className='pl-10 text-white text-lg text-2xl mt-5'>
+            <div className='article-lead lg:ml-16'>
+                <h1 className='lg:text-6xl text-xl text-white !leading-normal font-bold mb-5'>Send us your request Today! </h1>
+                <h2 className='text-white fill-text leading-normal'>Fill our <a href="/#left-form" className='font-bold lg:text-5xl text-3xl text-[#0988f1] italic'>Form</a> give us a <a href="tel:+18554301263" className='font-bold lg:text-5xl text-3xl text-[#057be1] italic'>Call</a> to directly assist Intelligent Home or Business Security System.</h2>
+                <ul className='pl-10 text-white text-lg lg:text-2xl mt-5'>
                     <li>Professionals with a valid certification.</li>
                     <li>Free Installation.</li>
                     <li>Lifetime Warrenty on Devices & Car Guard.</li>
                     <li>Advance Home Automation.</li>
                     
                 </ul>
-                <h3 className='text-3xl text-white font-bold mt-5'>Get a Free Estimate Today! No Obligation!</h3>
+                <h3 className='lg:text-3xl text-lg text-white font-bold mt-5 mb-2'>Get a Free Estimate Today! No Obligation!</h3>
             </div>
         </div>
 </div>
@@ -91,7 +91,7 @@ const Banner = () => {
 
 
                 <div className='d-flex justify-content-center'>
-                    <div className='banner-form form-group '>
+                    <div className='banner-form items-center form-group '>
                         <h4 className='mt-5'>Experience Smarter Security with Vivint-monitored Home Security Systems</h4>
                         <h5 className='mt-3 mb-3'>Get peace of mind with an Vivint smart home security
       system customized to the needs of your home and family.</h5>
