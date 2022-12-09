@@ -52,7 +52,8 @@ const Product = ({ product }) => {
                     <p className='gap-3'><i className="fa-regular fa-circle-check pr-3"></i>{product.description}</p>
                 </div>
                     <div className='mx-5 pb-4 text-center'>
-                    <button className="btn lg:w-full w-1/2 view-btn"><a href="/#topform">Get Quote</a></button>
+                    <a href="/#topform"><button className="btn lg:w-full w-1/2 view-btn">Get Quote</button></a>
+                    
                     </div>
                 
             </div>

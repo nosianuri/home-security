@@ -4,10 +4,10 @@ import './Thanks.css';
 const Thanks = () => {
   return (
 
-    <div className='min-h-screen bg-[#a0b7c1] flex justify-center'>
+    <div className='min-h-screen bg-[#1C6758] flex justify-center'>
 <div className=' '>
   <div className='text-center mt-16 mb-5'>
-  <p className='text-white lg:text-3xl md:text-xl text-lg mb-2'>Hi, Your quote is on its way!</p>
+  <p className='text-white lg:text-3xl md:text-xl text-lg mb-2'>Awesome, Your quote is on its way!</p>
   <p className='text-white'>Here's what to expect</p>
   </div>
   

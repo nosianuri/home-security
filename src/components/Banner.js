@@ -77,7 +77,7 @@ const Banner = () => {
             <div className='article-lead mr-5 lg:mt-32'>
             <div className='pl-10 '>
               <h1 className='lg:text-5xl text-xl pt-5 !leading-normal font-bold mb-5'>Send us your request Today! </h1>
-              <h2 className=' fill-text leading-normal'>Free Certified Assistance for your Intelligent Home or Business Security System Now?</h2>
+              <h2 className=' fill-text leading-normal'>Need Free Certified Assistance for your Intelligent Home or Business Security System Now?</h2>
               <button className='text-xl btn fill-btn bg-[#5BB318] mb-10 font-bold text-white mr-5'><a href="\#topform">Fill Form</a> </button> Or
               <button className='text-xl btn bg-[#CD104D] mb-10 font-bold text-white ml-5 call-us-btn'><a href='tel:+18554301263'>Call Us</a></button>
               
@@ -91,13 +91,13 @@ const Banner = () => {
         <div>
           <div>
 
-            <div className='text-center'>
+            <div className='text-center' id='topform'>
               <div className='d-flex justify-content-center'>
                 <div className='banner-form items-center form-group '>
                   <h4 className='mt-5 !text-[#371B58]'>Experience Smarter Security with Vivint-monitored Home Security Systems</h4>
                   <h5 className='mt-3 mb-3'>Get peace of mind with a Vivint smart home security
                     system customized to the needs of your home and family.</h5>
-                  <form onSubmit={sendLeadToZapier} id='topform'>
+                  <form onSubmit={sendLeadToZapier}>
                     <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
                       <div className='flex gap-4'>
                         <input
