@@ -78,8 +78,8 @@ const Banner = () => {
             <div className='pl-10 '>
               <h1 className='lg:text-5xl text-xl pt-5 !leading-normal font-bold mb-5'>Send us your request Today! </h1>
               <h2 className=' fill-text leading-normal'>Need Free Certified Assistance for your Intelligent Home or Business Security System Now?</h2>
-              <button className='text-xl btn fill-btn bg-[#5BB318] mb-10 font-bold text-white mr-5'><a href="\#topform">Fill Form</a> </button> Or
-              <button className='text-xl btn bg-[#CD104D] mb-10 font-bold text-white ml-5 call-us-btn'><a href='tel:+18554301263'>Call Us</a></button>
+              <a href="\#topform"><button className='text-xl rounded-lg fill-btn bg-[#5BB318] mb-10 font-bold text-white mr-5'>Fill Form </button></a> Or
+              <a href='tel:+18554301263'><button className='text-xl rounded-lg bg-[#CD104D] mb-10 font-bold text-white ml-5 call-us-btn px-4'>Call Us</button></a>
               
               
              </div>
