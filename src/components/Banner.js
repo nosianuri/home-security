@@ -1,5 +1,5 @@
 import React from 'react';
-import homebanner from "../assets/banner.avif";
+import homebanner from "../assets/smart-switch.webp";
 import './Banner.css';
 import rightform from "../assets/rightform.png";
 import { useNavigate } from 'react-router-dom';
@@ -70,74 +70,82 @@ const Banner = () => {
   return (
     <div >
       <div className='banner banner-text' >
-        <div className='banner-format'>
-          <div className='d-flex justify-content-center article'>
-            <div className='article-lead lg:ml-16'>
-              <h1 className='lg:text-6xl text-xl text-white !leading-normal font-bold mb-5'>Send us your request Today! </h1>
-              <h2 className='text-white fill-text leading-normal'>Fill our <a href="/#left-form" className='font-bold lg:text-5xl text-3xl text-[#0988f1] italic'>Form</a> give us a <a href="tel:+18554301263" className='font-bold lg:text-5xl text-3xl text-[#057be1] italic'>Call</a> to directly assist Intelligent Home or Business Security System.</h2>
-              <ul className='pl-10 text-white text-lg lg:text-2xl mt-5'>
+        <div style={{
+        background: `url(${homebanner})`
+      }} className=' !bg-cover !bg-no-repeat'>
+          <div className='d-flex justify-content-center article bg-opacity-25 '>
+            <div className='article-lead mr-5 lg:mt-32'>
+            <div className='pl-10 '>
+              <h1 className='lg:text-5xl text-xl pt-5 !leading-normal font-bold mb-5'>Send us your request Today! </h1>
+              <h2 className=' fill-text leading-normal'> Directly assist Intelligent Home or Business Security System.</h2>
+              <button className='text-xl btn bg-[#1e73be] mb-10 font-bold text-white mr-5'>Fill Form</button> Or
+              <button className='text-xl btn bg-[#1e73be] mb-10 font-bold text-white ml-5'>Call Us</button>
+              {/* <ul className='pl-10 text-lg lg:text-2xl mt-5'>
                 <li>Professionals with a valid certification.</li>
                 <li>Free Installation.</li>
                 <li>Lifetime Warrenty on Devices & Car Guard.</li>
                 <li>Advance Home Automation.</li>
 
-              </ul>
-              <h3 className='lg:text-3xl text-lg text-white font-bold mt-5 mb-2'>Get a Free Estimate Today! No Obligation!</h3>
+              </ul> */}
+              {/* <h3 className='lg:text-3xl text-lg font-bold mt-5 pb-2'>Get a Free Estimate Today! No Obligation!</h3> */}
+             </div>
+             {/* <div className='h-[20px] w-[28px] absolute article-lead -top-[-130px] right-[-10px] rotate-45'></div> */}
             </div>
           </div>
         </div>
+
         <div>
           <div>
 
-<div className='text-center'>
-            <div className='d-flex justify-content-center'>
-              <div className='banner-form items-center form-group '>
-                <h4 className='mt-5'>Experience Smarter Security with Vivint-monitored Home Security Systems</h4>
-                <h5 className='mt-3 mb-3'>Get peace of mind with an Vivint smart home security
-                  system customized to the needs of your home and family.</h5>
-                <form onSubmit={sendLeadToZapier} id='topform'>
-                  <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
-                    <div className='flex gap-4'>
+            <div className='text-center'>
+              <div className='d-flex justify-content-center'>
+                <div className='banner-form items-center form-group '>
+                  <h4 className='mt-5'>Experience Smarter Security with Vivint-monitored Home Security Systems</h4>
+                  <h5 className='mt-3 mb-3'>Get peace of mind with an Vivint smart home security
+                    system customized to the needs of your home and family.</h5>
+                  <form onSubmit={sendLeadToZapier} id='topform'>
+                    <div className='grid grid-cols-1 justify-items-center px-8 gap-5 '>
+                      <div className='flex gap-4'>
+                        <input
+                          type='text'
+                          name="first_name"
+                          placeholder='First Name*'
+                          className='input w-1/2 '
+                        /><input
+                          type='text'
+                          name="last_name"
+                          placeholder='Last Name*'
+                          className='input w-1/2  '
+                        />
+                      </div>
+
                       <input
                         type='text'
-                        name="first_name"
-                        placeholder='First Name*'
-                        className='input w-1/2 '
-                      /><input
-                        type='text'
-                        name="last_name"
-                        placeholder='Last Name*'
-                        className='input w-1/2  '
+                        name="zip_code"
+                        placeholder='ZIP Code*'
+                        className='input w-full max-w-md '
                       />
+                      <input
+                        type='text'
+                        maxLength="10"
+                        name="phone"
+                        minLength="10"
+                        placeholder='Phone Number*'
+                        className='input w-full max-w-md '
+                      />
+                      <input
+                        type='email'
+                        name="email"
+                        placeholder='Email Address'
+                        className='input w-full max-w-md'
+                      />
+
+                      <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
+                      <button className='btn lg:px-32 md:px-16 sm:px-10 bg-[#1e73be] mb-10 text-lg font-bold text-white submit-btn'>Submit</button>
                     </div>
-
-                    <input
-                      type='text'
-                      name="zip_code"
-                      placeholder='ZIP Code*'
-                      className='input w-full max-w-md '
-                    />
-                    <input
-                      type='text'
-                      maxLength="10"
-                      name="phone"
-                      minLength="10"
-                      placeholder='Phone Number*'
-                      className='input w-full max-w-md '
-                    />
-                    <input
-                      type='email'
-                      name="email"
-                      placeholder='Email Address'
-                      className='input w-full max-w-md'
-                    />
-
-                    <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
-                    <button className='btn lg:px-32 md:px-16 sm:px-10 bg-[#1e73be] mb-10 text-lg font-bold text-white submit-btn'>Submit</button>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
-            </div>
             </div>
 
           </div>

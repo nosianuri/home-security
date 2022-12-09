@@ -1,4 +1,4 @@
-.call-btn{
+/* .call-btn{
     animation-name: trin;
     animation-duration: 6.5s;
     animation-iteration-count: infinite;
@@ -47,6 +47,22 @@
       transform: rotate3d(0, 0, 1, 0deg);
     }
   
+  } */
+
+  .call-btn{
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+  }
+
+  
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(-25%);
+    }
+    100% {
+      transform: translateY(25%);
+    }
   }
 
   .topheader-container{

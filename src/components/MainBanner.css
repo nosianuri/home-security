@@ -1,12 +1,10 @@
-.banner {
-    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/smart-switch.webp"); */
-    /* background-position: center; */
+/* .banner {
     background-size: cover;
     height: 100%;
     background-repeat: no-repeat;
     display: flex;
     
-    /* place-items: center; */
+   
     position: relative;
 }
 
@@ -24,35 +22,16 @@ ul li{
     padding-right: 60px;
     margin-bottom: 50px;
 }
-/* .article-lead{
-margin-left: 50px;
-} */
 
-/* .article h1 {
-    font-size: 45px;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 20px;
-} */
 
-/* .article h2 {
-    color: #fff;
-    font-size: 25px;
-    margin-bottom: 20px;
-    line-height: 70px;
-} */
 
 .article h4 {
     color: #fff;
     font-size: 13px;
     margin-top: 20px;
-    /* line-height: 45px; */
+   
 }
 
-/* .article h3 {
-    color: #fff;
-    font-size: 18px;
-} */
 
 .article h5 {
     color: #fff;
@@ -215,32 +194,22 @@ button {
 
 .banner-form {
     width: 550px;
-    /* border-radius: 10px; */
+    
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
-    /* padding: 15px; */
+   
     color: #000000;
     font-weight: 600;
-    /* margin-right: 90px; */
+   
     position: relative;
     background-image: linear-gradient(#ECEFF1, #CFD8DC);
-    /* margin-top: 50px; */
-    /* margin-bottom: 130px; */
+    
 }
 
-/* .form-submit {
-    background: #3621ad;
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
-    border-radius: 15px;
-    margin-top: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-} */
+
 
 #form-submit {
     margin-top: 20px;
@@ -328,10 +297,9 @@ label {
         width: 330px;
         padding: 30px;
         margin-right: 0px;
-        /* margin-left: 15px; */
+       
         display: inline-block;
-        /* align-items: center;
-        justify-content: center; */
+        
     }
 
     .million {
@@ -339,7 +307,4 @@ label {
     }
 }
 
-
-/* @media only screen and (min-width: 689px) and (max-width: 992px) {
-    
-} */
+ */
