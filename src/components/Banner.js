@@ -106,11 +106,13 @@ const Banner = () => {
                           name="first_name"
                           placeholder='First Name*'
                           className='input w-1/2 '
+                          required
                         /><input
                           type='text'
                           name="last_name"
                           placeholder='Last Name*'
                           className='input w-1/2  '
+                          required
                         />
                       </div>
 
@@ -119,6 +121,7 @@ const Banner = () => {
                         name="zip_code"
                         placeholder='ZIP Code*'
                         className='input w-full max-w-md '
+                        required
                       />
                       <input
                         type='text'
@@ -127,12 +130,14 @@ const Banner = () => {
                         minLength="10"
                         placeholder='Phone Number*'
                         className='input w-full max-w-md '
+                        required
                       />
                       <input
                         type='email'
                         name="email"
                         placeholder='Email Address'
                         className='input w-full max-w-md'
+                        required
                       />
 
                       <p className='text-white  mute-text'>By submitting this form you agree to our <span className='text-[#F5EEDC] text-xs'>Communication and Privacy Policy </span></p>

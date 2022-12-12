@@ -91,7 +91,7 @@ button {
 .phone-button {
     background: linear-gradient(90deg, #64aebe, #0E5E6F);
     color: #fff;
-    font-style: italic;
+    /* font-style: italic; */
     margin-right: 25px;
     margin-bottom: 50px;
     padding-left: 30px;
@@ -154,7 +154,7 @@ button {
 .get-button {
     background: #fff;
     color: #0E5E6F;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 700;
     border-radius: 5px;
     font-size: 22px;
@@ -180,7 +180,7 @@ button {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Noto Serif', serif;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .apply:hover {
@@ -210,26 +210,26 @@ button {
     margin-bottom: 20px;
     background: #3621ad;
     color: #fff;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 20px;
 }
 
 .banner-form h4 {
     color: #1f191c;
     font-weight: 900;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 30px;
 }
 .fill-btn{
     font-family: 'Noto Serif', serif;
-    font-style: italic;
+    /* font-style: italic; */
 }
 .fill-btn:hover{
 background: #5BB318;
 }
 .call-us-btn{
     font-family: 'Noto Serif', serif;
-    font-style: italic;
+    /* font-style: italic; */
 }
 .call-us-btn:hover{
     background: #CD104D;

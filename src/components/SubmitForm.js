@@ -92,11 +92,13 @@ const SubmitForm = () => {
                     name="first_name"
                     placeholder='First Name*'
                     className='input w-1/2 '
+                    required
                   /><input
                     type='text'
                     name="last_name"
                     placeholder='Last Name*'
                     className='input w-1/2  '
+                    required
                   />
                 </div>
 
@@ -105,6 +107,7 @@ const SubmitForm = () => {
                   name="zip_code"
                   placeholder='ZIP Code*'
                   className='input w-full max-w-md '
+                  required
                 />
                 <input
                   type='text'
@@ -112,12 +115,14 @@ const SubmitForm = () => {
                   name="phone"
                   placeholder='Phone Number*'
                   className='input w-full max-w-md '
+                  required
                 />
                 <input
                   type='email'
                   name="email"
                   placeholder='Email Address'
                   className='input w-full max-w-md'
+                  required
                 />
 
                 <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
