@@ -3,6 +3,7 @@ import homebanner from "../assets/smart-switch.webp";
 import './Banner.css';
 import rightform from "../assets/rightform.png";
 import { useNavigate } from 'react-router-dom';
+import trigger from "./Shared/trigger";
 
 const Banner = () => {
   const navigate = useNavigate();
@@ -14,6 +15,13 @@ const Banner = () => {
     let phone = e.target.phone.value
     let email = e.target.email.value
     let zipCode = e.target.zip_code.value
+
+    let body = {
+      "first_name": firstName,
+      "last_name": lastName,
+      "phone": phone,
+      "email": email
+    }
     console.log(phone.length)
 
     let responseToZapier = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
@@ -37,6 +45,8 @@ const Banner = () => {
 
     console.log("direct zap")
 
+
+
     let responseToSheets = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
       method: "POST",
       body: JSON.stringify({
@@ -56,6 +66,13 @@ const Banner = () => {
       })
       .catch(error => console.log(error))
     console.log("Sheets")
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "review_clicked",
+      body: body
+    })
+    console.log(body)
     // navigate to somewhere
 
 
@@ -79,8 +96,8 @@ const Banner = () => {
               <h1 className='lg:text-5xl send-us pt-5 !leading-normal font-bold mb-5'>Send us your request Today! </h1>
               <h2 className=' fill-text'>Need Free Certified Assistance for your Intelligent Home or Business Security System Now?</h2>
               <div className='fill-call'>
-              <a href="\#topform"><button className='lg:text-xl rounded-lg fill-btn bg-[#5BB318] mb-10 font-bold text-white mr-5'>Fill Form </button></a> <button>Or</button>
-              <a href='tel:+18554301263'><button className='lg:text-xl rounded-lg bg-[#CD104D] mb-10 font-bold text-white ml-5 call-us-btn px-4'>Call Us</button></a>
+              <a href="\#topform"><button id="fill" className='lg:text-xl rounded-lg fill-btn bg-[#5BB318] mb-10 font-bold text-white mr-5'>Fill Form </button></a> <button>Or</button>
+              <a href='tel:+18554301263'><button id="call" className='lg:text-xl rounded-lg bg-[#CD104D] mb-10 font-bold text-white ml-5 call-us-btn px-4'>Call Us</button></a>
               </div>  
               
              </div>
@@ -141,7 +158,7 @@ const Banner = () => {
                       />
 
                       <p className='text-white  mute-text'>By submitting this form you agree to our <span className='text-[#F5EEDC] text-xs'>Communication and Privacy Policy </span></p>
-                      <button className='btn lg:px-32 md:px-16 sm:px-10 !bg-[#7743DB] mb-10 text-lg font-bold text-white submit-btn'>Submit</button>
+                      <button id="form-clicked" onClick={trigger} className='btn lg:px-32 md:px-16 sm:px-10 !bg-[#7743DB] mb-10 text-lg font-bold text-white submit-btn'>Submit</button>
                     </div>
                   </form>
                 </div>
