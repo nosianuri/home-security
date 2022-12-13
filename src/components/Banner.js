@@ -20,7 +20,8 @@ const Banner = () => {
       "first_name": firstName,
       "last_name": lastName,
       "phone": phone,
-      "email": email
+      "email": email,
+      "zip_code": zipCode
     }
     console.log(phone.length)
 
