@@ -25,7 +25,7 @@ const Banner = () => {
     }
     console.log(phone.length)
 
-    let responseToZapier = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bny126t/", {
+    let responseToZapier = await fetch("https://hooks.zapier.com/hooks/catch/13844305/bnx8r5g/", {
       method: "POST",
       body: JSON.stringify({
         "lp_campaign_id": "61c158df57694",
