@@ -53,7 +53,7 @@ const ReviewItem = () => {
               <div class="card-body ">
               <img width={20} src={quote} alt="" />
               <div className='text-center'>
-                <h2 className="card-title lg:text-lg text-sm text-[#703943]">{description}</h2>
+                <h2 className=" lg:text-lg text-sm text-[#703943]">{description}</h2>
                 <span className='flex items-center py-3  justify-center'>
                     <img width={20} src={redstar} alt="" />
                     <img width={20} src={redstar} alt="" />
