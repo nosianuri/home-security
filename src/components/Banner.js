@@ -93,11 +93,11 @@ const Banner = () => {
           <div className='d-flex justify-content-center article bg-opacity-25 '>
             <div className='article-lead mr-5 lg:mt-32'>
             <div className='pl-10 '>
-              <h1 className='lg:text-5xl send-us pt-5 !leading-normal font-bold mb-5'>Send us your request Today! </h1>
+              <h1 className='lg:text-5xl send-us pt-5 !leading-normal  mb-5'>Send us your request Today! </h1>
               <h2 className=' fill-text'>Need Free Certified Assistance for your Intelligent Home or Business Security System Now?</h2>
               <div className='fill-call'>
-              <a href="\#topform"><button id="fill" className='lg:text-xl rounded-lg fill-btn bg-[#5BB318] mb-10 font-bold text-white mr-5'>Fill Form </button></a> <button>Or</button>
-              <a href='tel:+18554301263'><button id="call" className='lg:text-xl rounded-lg bg-[#CD104D] mb-10 font-bold text-white ml-5 call-us-btn px-4'>Call Us</button></a>
+              <a href="\#topform"><button id="fill" className='lg:text-xl rounded-lg fill-btn bg-[#5BB318] mb-10  text-white mr-5'>Fill Form </button></a> <button>Or</button>
+              <a href='tel:+18554301263'><button id="call" className='lg:text-xl rounded-lg bg-[#CD104D] mb-10  text-white ml-5 call-us-btn px-4'>Call Us</button></a>
               </div>  
               
              </div>

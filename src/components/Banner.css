@@ -37,7 +37,7 @@ ul li{
 
 .article h5 {
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
     margin-bottom: 20px;
 }
@@ -96,7 +96,7 @@ button {
     margin-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px;
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 5px;
     font-size: 22px;
 }
@@ -155,7 +155,7 @@ button {
     background: #fff;
     color: #0E5E6F;
     /* font-style: italic; */
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 5px;
     font-size: 22px;
 }
@@ -171,7 +171,7 @@ button {
 .apply {
     background: #3621ad;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 15px;
     margin-top: 8px;
     text-decoration: none;
@@ -198,7 +198,7 @@ button {
     padding-top: 15px;
     padding-bottom: 15px;
     color: #000000;
-    font-weight: 600;
+    font-weight: 500;
     position: relative;
     background: #4F091D;
     /* background-image: linear-gradient(#ECEFF1, #CFD8DC); */
@@ -216,7 +216,7 @@ button {
 
 .banner-form h4 {
     color: #1f191c;
-    font-weight: 900;
+    font-weight: 500;
     /* font-style: italic; */
     font-size: 30px;
 }

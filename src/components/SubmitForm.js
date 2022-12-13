@@ -76,9 +76,9 @@ const SubmitForm = () => {
           <div className='sub-form w-[500px] p-8 rounded-2xl shadow-md' >
             <div className='text-center pb-5 '>
               <p className='lg:text-3xl sm:text-xl pb-3 text-white'>
-                <span className='font-bold'>Experience Smarter
+                <span className=''>Experience Smarter
                   Security</span> with
-                Vivint-monitored <span className='font-bold'>Home
+                Vivint-monitored <span className=''>Home
                   Security Systems</span>
               </p>
               <h1 className='text-white'>Get peace of mind with an Vivint smart home security
@@ -126,7 +126,7 @@ const SubmitForm = () => {
                 />
 
                 <p className='text-slate-400  mute-text'>By submitting this form you agree to our <span className='text-[#1e73be]'>Communication and Privacy Policy </span></p>
-                <button className='btn lg:px-32 md:px-16 sm:px-10  mb-5 text-lg font-bold text-white submit-btn'>Submit</button>
+                <button className='btn lg:px-32 md:px-16 sm:px-10  mb-5 text-lg  text-white submit-btn'>Submit</button>
               </div>
             </form>
 

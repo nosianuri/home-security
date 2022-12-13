@@ -50,8 +50,8 @@
   } */
 
   .call-btn{
-    font-style: italic;
-    font-family: "montserrat",sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
     transform: translateY(-25%);
     animation: bounce 0.8s ease infinite alternate;
   }

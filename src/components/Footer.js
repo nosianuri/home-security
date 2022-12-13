@@ -16,7 +16,7 @@ Do Not Sell/Share My Personal Information
 |
 Limit the Use of My Sensitive Personal Information
   </div>
-  <div className='font-bold w-full text-2xl'><a href="https://www.facebook.com/homemonitoringplan/"><i class="fa-brands fa-facebook"></i></a></div>
+  <div className='font-bold w-full text-2xl'><a href="https://www.facebook.com/homemonitoringplan/"><i class="fa-brands fa-facebook hover:text-[#1e73be]"></i></a></div>
     <p className='text-xs'>Copyright © 2022 - All right reserved by Home Monitoring Plan.</p>
   </div>
 </footer>
