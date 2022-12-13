@@ -11,6 +11,7 @@
 .fill-text{
     font-size: 30px;
     margin-bottom: 10px;
+    font-family: 'Arbutus Slab', serif;
 }
 
 /* .banner-format{
@@ -203,7 +204,9 @@ button {
     background: #4F091D;
     /* background-image: linear-gradient(#ECEFF1, #CFD8DC); */
 }
-
+.send-us{
+    font-family: 'Russo One', sans-serif;
+}
 
 #form-submit {
     margin-top: 20px;
@@ -221,14 +224,14 @@ button {
     font-size: 30px;
 }
 .fill-btn{
-    font-family: 'Noto Serif', serif;
+    font-family: 'Russo One', sans-serif;
     /* font-style: italic; */
 }
 .fill-btn:hover{
 background: #5BB318;
 }
 .call-us-btn{
-    font-family: 'Noto Serif', serif;
+    font-family: 'Russo One', sans-serif;
     /* font-style: italic; */
 }
 .call-us-btn:hover{
